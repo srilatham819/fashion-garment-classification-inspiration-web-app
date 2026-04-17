@@ -1,0 +1,1762 @@
+[
+  {
+    "image_path": "eval/dataset/images/pexels-001-34795625.jpg",
+    "source": "Pexels",
+    "source_query": "black dress fashion",
+    "pexels_id": 34795625,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "casual",
+      "material": "unknown",
+      "color_palette": [
+        "black"
+      ],
+      "pattern": "unknown",
+      "season": "fall/winter",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-002-36041576.jpg",
+    "source": "Pexels",
+    "source_query": "black dress fashion",
+    "pexels_id": 36041576,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "casual",
+      "material": "unknown",
+      "color_palette": [
+        "black"
+      ],
+      "pattern": "unknown",
+      "season": "fall/winter",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-003-32367700.jpg",
+    "source": "Pexels",
+    "source_query": "black dress fashion",
+    "pexels_id": 32367700,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "casual",
+      "material": "unknown",
+      "color_palette": [
+        "black"
+      ],
+      "pattern": "unknown",
+      "season": "fall/winter",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-004-28536974.jpg",
+    "source": "Pexels",
+    "source_query": "black dress fashion",
+    "pexels_id": 28536974,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "casual",
+      "material": "unknown",
+      "color_palette": [
+        "black"
+      ],
+      "pattern": "unknown",
+      "season": "fall/winter",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-005-12721579.jpg",
+    "source": "Pexels",
+    "source_query": "black dress fashion",
+    "pexels_id": 12721579,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "casual",
+      "material": "unknown",
+      "color_palette": [
+        "black"
+      ],
+      "pattern": "unknown",
+      "season": "fall/winter",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-006-8825715.jpg",
+    "source": "Pexels",
+    "source_query": "black dress fashion",
+    "pexels_id": 8825715,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "casual",
+      "material": "unknown",
+      "color_palette": [
+        "black"
+      ],
+      "pattern": "unknown",
+      "season": "fall/winter",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-007-28627820.jpg",
+    "source": "Pexels",
+    "source_query": "black dress fashion",
+    "pexels_id": 28627820,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "casual",
+      "material": "unknown",
+      "color_palette": [
+        "black"
+      ],
+      "pattern": "unknown",
+      "season": "fall/winter",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-008-8429050.jpg",
+    "source": "Pexels",
+    "source_query": "black dress fashion",
+    "pexels_id": 8429050,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "casual",
+      "material": "unknown",
+      "color_palette": [
+        "black"
+      ],
+      "pattern": "unknown",
+      "season": "fall/winter",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-009-37079387.jpg",
+    "source": "Pexels",
+    "source_query": "black dress fashion",
+    "pexels_id": 37079387,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "casual",
+      "material": "unknown",
+      "color_palette": [
+        "black"
+      ],
+      "pattern": "unknown",
+      "season": "fall/winter",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-010-28640866.jpg",
+    "source": "Pexels",
+    "source_query": "black dress fashion",
+    "pexels_id": 28640866,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "casual",
+      "material": "unknown",
+      "color_palette": [
+        "black"
+      ],
+      "pattern": "unknown",
+      "season": "fall/winter",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-011-9509648.jpg",
+    "source": "Pexels",
+    "source_query": "black dress fashion",
+    "pexels_id": 9509648,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "casual",
+      "material": "unknown",
+      "color_palette": [
+        "black"
+      ],
+      "pattern": "unknown",
+      "season": "fall/winter",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-012-15131682.jpg",
+    "source": "Pexels",
+    "source_query": "black dress fashion",
+    "pexels_id": 15131682,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "casual",
+      "material": "unknown",
+      "color_palette": [
+        "black"
+      ],
+      "pattern": "unknown",
+      "season": "fall/winter",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-013-15595740.jpg",
+    "source": "Pexels",
+    "source_query": "black dress fashion",
+    "pexels_id": 15595740,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "casual",
+      "material": "unknown",
+      "color_palette": [
+        "black"
+      ],
+      "pattern": "unknown",
+      "season": "fall/winter",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-014-19927157.jpg",
+    "source": "Pexels",
+    "source_query": "black dress fashion",
+    "pexels_id": 19927157,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "casual",
+      "material": "unknown",
+      "color_palette": [
+        "black"
+      ],
+      "pattern": "unknown",
+      "season": "fall/winter",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-015-20821760.jpg",
+    "source": "Pexels",
+    "source_query": "black dress fashion",
+    "pexels_id": 20821760,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "casual",
+      "material": "unknown",
+      "color_palette": [
+        "black"
+      ],
+      "pattern": "unknown",
+      "season": "fall/winter",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-016-36517718.jpg",
+    "source": "Pexels",
+    "source_query": "black dress fashion",
+    "pexels_id": 36517718,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "casual",
+      "material": "unknown",
+      "color_palette": [
+        "black"
+      ],
+      "pattern": "unknown",
+      "season": "fall/winter",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-017-16787203.jpg",
+    "source": "Pexels",
+    "source_query": "red dress fashion",
+    "pexels_id": 16787203,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "festive",
+      "material": "unknown",
+      "color_palette": [
+        "red"
+      ],
+      "pattern": "unknown",
+      "season": "seasonless",
+      "occasion": "celebration",
+      "consumer_profile": "occasionwear customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-018-36747257.jpg",
+    "source": "Pexels",
+    "source_query": "red dress fashion",
+    "pexels_id": 36747257,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "festive",
+      "material": "unknown",
+      "color_palette": [
+        "red"
+      ],
+      "pattern": "unknown",
+      "season": "seasonless",
+      "occasion": "celebration",
+      "consumer_profile": "occasionwear customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-019-34846758.jpg",
+    "source": "Pexels",
+    "source_query": "red dress fashion",
+    "pexels_id": 34846758,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "festive",
+      "material": "unknown",
+      "color_palette": [
+        "red"
+      ],
+      "pattern": "unknown",
+      "season": "seasonless",
+      "occasion": "celebration",
+      "consumer_profile": "occasionwear customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-020-33619044.jpg",
+    "source": "Pexels",
+    "source_query": "red dress fashion",
+    "pexels_id": 33619044,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "festive",
+      "material": "unknown",
+      "color_palette": [
+        "red"
+      ],
+      "pattern": "unknown",
+      "season": "seasonless",
+      "occasion": "celebration",
+      "consumer_profile": "occasionwear customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-021-10238560.jpg",
+    "source": "Pexels",
+    "source_query": "red dress fashion",
+    "pexels_id": 10238560,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "festive",
+      "material": "unknown",
+      "color_palette": [
+        "red"
+      ],
+      "pattern": "unknown",
+      "season": "seasonless",
+      "occasion": "celebration",
+      "consumer_profile": "occasionwear customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-022-36195495.jpg",
+    "source": "Pexels",
+    "source_query": "red dress fashion",
+    "pexels_id": 36195495,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "festive",
+      "material": "unknown",
+      "color_palette": [
+        "red"
+      ],
+      "pattern": "unknown",
+      "season": "seasonless",
+      "occasion": "celebration",
+      "consumer_profile": "occasionwear customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-023-23995967.jpg",
+    "source": "Pexels",
+    "source_query": "red dress fashion",
+    "pexels_id": 23995967,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "festive",
+      "material": "unknown",
+      "color_palette": [
+        "red"
+      ],
+      "pattern": "unknown",
+      "season": "seasonless",
+      "occasion": "celebration",
+      "consumer_profile": "occasionwear customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-024-34160661.jpg",
+    "source": "Pexels",
+    "source_query": "red dress fashion",
+    "pexels_id": 34160661,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "festive",
+      "material": "unknown",
+      "color_palette": [
+        "red"
+      ],
+      "pattern": "unknown",
+      "season": "seasonless",
+      "occasion": "celebration",
+      "consumer_profile": "occasionwear customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-025-33045461.jpg",
+    "source": "Pexels",
+    "source_query": "red dress fashion",
+    "pexels_id": 33045461,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "festive",
+      "material": "unknown",
+      "color_palette": [
+        "red"
+      ],
+      "pattern": "unknown",
+      "season": "seasonless",
+      "occasion": "celebration",
+      "consumer_profile": "occasionwear customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-026-33619029.jpg",
+    "source": "Pexels",
+    "source_query": "red dress fashion",
+    "pexels_id": 33619029,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "festive",
+      "material": "unknown",
+      "color_palette": [
+        "red"
+      ],
+      "pattern": "unknown",
+      "season": "seasonless",
+      "occasion": "celebration",
+      "consumer_profile": "occasionwear customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-027-36719347.jpg",
+    "source": "Pexels",
+    "source_query": "red dress fashion",
+    "pexels_id": 36719347,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "festive",
+      "material": "unknown",
+      "color_palette": [
+        "red"
+      ],
+      "pattern": "unknown",
+      "season": "seasonless",
+      "occasion": "celebration",
+      "consumer_profile": "occasionwear customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-028-6494112.jpg",
+    "source": "Pexels",
+    "source_query": "red dress fashion",
+    "pexels_id": 6494112,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "festive",
+      "material": "unknown",
+      "color_palette": [
+        "red"
+      ],
+      "pattern": "unknown",
+      "season": "seasonless",
+      "occasion": "celebration",
+      "consumer_profile": "occasionwear customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-029-17032364.jpg",
+    "source": "Pexels",
+    "source_query": "red dress fashion",
+    "pexels_id": 17032364,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "festive",
+      "material": "unknown",
+      "color_palette": [
+        "red"
+      ],
+      "pattern": "unknown",
+      "season": "seasonless",
+      "occasion": "celebration",
+      "consumer_profile": "occasionwear customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-030-19895956.jpg",
+    "source": "Pexels",
+    "source_query": "red dress fashion",
+    "pexels_id": 19895956,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "festive",
+      "material": "unknown",
+      "color_palette": [
+        "red"
+      ],
+      "pattern": "unknown",
+      "season": "seasonless",
+      "occasion": "celebration",
+      "consumer_profile": "occasionwear customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-031-36195505.jpg",
+    "source": "Pexels",
+    "source_query": "red dress fashion",
+    "pexels_id": 36195505,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "festive",
+      "material": "unknown",
+      "color_palette": [
+        "red"
+      ],
+      "pattern": "unknown",
+      "season": "seasonless",
+      "occasion": "celebration",
+      "consumer_profile": "occasionwear customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-032-31096472.jpg",
+    "source": "Pexels",
+    "source_query": "red dress fashion",
+    "pexels_id": 31096472,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "festive",
+      "material": "unknown",
+      "color_palette": [
+        "red"
+      ],
+      "pattern": "unknown",
+      "season": "seasonless",
+      "occasion": "celebration",
+      "consumer_profile": "occasionwear customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-033-30615470.jpg",
+    "source": "Pexels",
+    "source_query": "streetwear jacket fashion",
+    "pexels_id": 30615470,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "jacket",
+      "style": "streetwear",
+      "material": "unknown",
+      "color_palette": [
+        "unknown"
+      ],
+      "pattern": "unknown",
+      "season": "fall/winter",
+      "occasion": "everyday",
+      "consumer_profile": "trend-led casual customer",
+      "trend_notes": "Pexels streetwear image",
+      "location_context": "street"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-034-34887628.jpg",
+    "source": "Pexels",
+    "source_query": "streetwear jacket fashion",
+    "pexels_id": 34887628,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "jacket",
+      "style": "streetwear",
+      "material": "unknown",
+      "color_palette": [
+        "unknown"
+      ],
+      "pattern": "unknown",
+      "season": "fall/winter",
+      "occasion": "everyday",
+      "consumer_profile": "trend-led casual customer",
+      "trend_notes": "Pexels streetwear image",
+      "location_context": "street"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-035-36466501.jpg",
+    "source": "Pexels",
+    "source_query": "streetwear jacket fashion",
+    "pexels_id": 36466501,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "jacket",
+      "style": "streetwear",
+      "material": "unknown",
+      "color_palette": [
+        "unknown"
+      ],
+      "pattern": "unknown",
+      "season": "fall/winter",
+      "occasion": "everyday",
+      "consumer_profile": "trend-led casual customer",
+      "trend_notes": "Pexels streetwear image",
+      "location_context": "street"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-036-33790024.jpg",
+    "source": "Pexels",
+    "source_query": "streetwear jacket fashion",
+    "pexels_id": 33790024,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "jacket",
+      "style": "streetwear",
+      "material": "unknown",
+      "color_palette": [
+        "unknown"
+      ],
+      "pattern": "unknown",
+      "season": "fall/winter",
+      "occasion": "everyday",
+      "consumer_profile": "trend-led casual customer",
+      "trend_notes": "Pexels streetwear image",
+      "location_context": "street"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-037-25745247.jpg",
+    "source": "Pexels",
+    "source_query": "streetwear jacket fashion",
+    "pexels_id": 25745247,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "jacket",
+      "style": "streetwear",
+      "material": "unknown",
+      "color_palette": [
+        "unknown"
+      ],
+      "pattern": "unknown",
+      "season": "fall/winter",
+      "occasion": "everyday",
+      "consumer_profile": "trend-led casual customer",
+      "trend_notes": "Pexels streetwear image",
+      "location_context": "street"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-038-31696292.jpg",
+    "source": "Pexels",
+    "source_query": "streetwear jacket fashion",
+    "pexels_id": 31696292,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "jacket",
+      "style": "streetwear",
+      "material": "unknown",
+      "color_palette": [
+        "unknown"
+      ],
+      "pattern": "unknown",
+      "season": "fall/winter",
+      "occasion": "everyday",
+      "consumer_profile": "trend-led casual customer",
+      "trend_notes": "Pexels streetwear image",
+      "location_context": "street"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-039-21628906.jpg",
+    "source": "Pexels",
+    "source_query": "streetwear jacket fashion",
+    "pexels_id": 21628906,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "jacket",
+      "style": "streetwear",
+      "material": "unknown",
+      "color_palette": [
+        "unknown"
+      ],
+      "pattern": "unknown",
+      "season": "fall/winter",
+      "occasion": "everyday",
+      "consumer_profile": "trend-led casual customer",
+      "trend_notes": "Pexels streetwear image",
+      "location_context": "street"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-040-12712957.jpg",
+    "source": "Pexels",
+    "source_query": "streetwear jacket fashion",
+    "pexels_id": 12712957,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "jacket",
+      "style": "streetwear",
+      "material": "unknown",
+      "color_palette": [
+        "unknown"
+      ],
+      "pattern": "unknown",
+      "season": "fall/winter",
+      "occasion": "everyday",
+      "consumer_profile": "trend-led casual customer",
+      "trend_notes": "Pexels streetwear image",
+      "location_context": "street"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-041-30615429.jpg",
+    "source": "Pexels",
+    "source_query": "streetwear jacket fashion",
+    "pexels_id": 30615429,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "jacket",
+      "style": "streetwear",
+      "material": "unknown",
+      "color_palette": [
+        "unknown"
+      ],
+      "pattern": "unknown",
+      "season": "fall/winter",
+      "occasion": "everyday",
+      "consumer_profile": "trend-led casual customer",
+      "trend_notes": "Pexels streetwear image",
+      "location_context": "street"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-042-19583556.jpg",
+    "source": "Pexels",
+    "source_query": "streetwear jacket fashion",
+    "pexels_id": 19583556,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "jacket",
+      "style": "streetwear",
+      "material": "unknown",
+      "color_palette": [
+        "unknown"
+      ],
+      "pattern": "unknown",
+      "season": "fall/winter",
+      "occasion": "everyday",
+      "consumer_profile": "trend-led casual customer",
+      "trend_notes": "Pexels streetwear image",
+      "location_context": "street"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-043-14902769.jpg",
+    "source": "Pexels",
+    "source_query": "streetwear jacket fashion",
+    "pexels_id": 14902769,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "jacket",
+      "style": "streetwear",
+      "material": "unknown",
+      "color_palette": [
+        "unknown"
+      ],
+      "pattern": "unknown",
+      "season": "fall/winter",
+      "occasion": "everyday",
+      "consumer_profile": "trend-led casual customer",
+      "trend_notes": "Pexels streetwear image",
+      "location_context": "street"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-044-18213661.jpg",
+    "source": "Pexels",
+    "source_query": "streetwear jacket fashion",
+    "pexels_id": 18213661,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "jacket",
+      "style": "streetwear",
+      "material": "unknown",
+      "color_palette": [
+        "unknown"
+      ],
+      "pattern": "unknown",
+      "season": "fall/winter",
+      "occasion": "everyday",
+      "consumer_profile": "trend-led casual customer",
+      "trend_notes": "Pexels streetwear image",
+      "location_context": "street"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-045-16144391.jpg",
+    "source": "Pexels",
+    "source_query": "streetwear jacket fashion",
+    "pexels_id": 16144391,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "jacket",
+      "style": "streetwear",
+      "material": "unknown",
+      "color_palette": [
+        "unknown"
+      ],
+      "pattern": "unknown",
+      "season": "fall/winter",
+      "occasion": "everyday",
+      "consumer_profile": "trend-led casual customer",
+      "trend_notes": "Pexels streetwear image",
+      "location_context": "street"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-046-19207660.jpg",
+    "source": "Pexels",
+    "source_query": "streetwear jacket fashion",
+    "pexels_id": 19207660,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "jacket",
+      "style": "streetwear",
+      "material": "unknown",
+      "color_palette": [
+        "unknown"
+      ],
+      "pattern": "unknown",
+      "season": "fall/winter",
+      "occasion": "everyday",
+      "consumer_profile": "trend-led casual customer",
+      "trend_notes": "Pexels streetwear image",
+      "location_context": "street"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-047-30208479.jpg",
+    "source": "Pexels",
+    "source_query": "streetwear jacket fashion",
+    "pexels_id": 30208479,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "jacket",
+      "style": "streetwear",
+      "material": "unknown",
+      "color_palette": [
+        "unknown"
+      ],
+      "pattern": "unknown",
+      "season": "fall/winter",
+      "occasion": "everyday",
+      "consumer_profile": "trend-led casual customer",
+      "trend_notes": "Pexels streetwear image",
+      "location_context": "street"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-048-14474134.jpg",
+    "source": "Pexels",
+    "source_query": "streetwear jacket fashion",
+    "pexels_id": 14474134,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "jacket",
+      "style": "streetwear",
+      "material": "unknown",
+      "color_palette": [
+        "unknown"
+      ],
+      "pattern": "unknown",
+      "season": "fall/winter",
+      "occasion": "everyday",
+      "consumer_profile": "trend-led casual customer",
+      "trend_notes": "Pexels streetwear image",
+      "location_context": "street"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-049-5772142.jpg",
+    "source": "Pexels",
+    "source_query": "white shirt fashion",
+    "pexels_id": 5772142,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "top",
+      "style": "casual",
+      "material": "cotton",
+      "color_palette": [
+        "white"
+      ],
+      "pattern": "solid",
+      "season": "spring/summer",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-050-9725690.jpg",
+    "source": "Pexels",
+    "source_query": "white shirt fashion",
+    "pexels_id": 9725690,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "top",
+      "style": "casual",
+      "material": "cotton",
+      "color_palette": [
+        "white"
+      ],
+      "pattern": "solid",
+      "season": "spring/summer",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-051-15568823.jpg",
+    "source": "Pexels",
+    "source_query": "white shirt fashion",
+    "pexels_id": 15568823,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "top",
+      "style": "casual",
+      "material": "cotton",
+      "color_palette": [
+        "white"
+      ],
+      "pattern": "solid",
+      "season": "spring/summer",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-052-4456775.jpg",
+    "source": "Pexels",
+    "source_query": "white shirt fashion",
+    "pexels_id": 4456775,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "top",
+      "style": "casual",
+      "material": "cotton",
+      "color_palette": [
+        "white"
+      ],
+      "pattern": "solid",
+      "season": "spring/summer",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-053-8994565.jpg",
+    "source": "Pexels",
+    "source_query": "white shirt fashion",
+    "pexels_id": 8994565,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "top",
+      "style": "casual",
+      "material": "cotton",
+      "color_palette": [
+        "white"
+      ],
+      "pattern": "solid",
+      "season": "spring/summer",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-054-7682248.jpg",
+    "source": "Pexels",
+    "source_query": "white shirt fashion",
+    "pexels_id": 7682248,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "top",
+      "style": "casual",
+      "material": "cotton",
+      "color_palette": [
+        "white"
+      ],
+      "pattern": "solid",
+      "season": "spring/summer",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-055-6729831.jpg",
+    "source": "Pexels",
+    "source_query": "white shirt fashion",
+    "pexels_id": 6729831,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "top",
+      "style": "casual",
+      "material": "cotton",
+      "color_palette": [
+        "white"
+      ],
+      "pattern": "solid",
+      "season": "spring/summer",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-056-7322086.jpg",
+    "source": "Pexels",
+    "source_query": "white shirt fashion",
+    "pexels_id": 7322086,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "top",
+      "style": "casual",
+      "material": "cotton",
+      "color_palette": [
+        "white"
+      ],
+      "pattern": "solid",
+      "season": "spring/summer",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-057-31747191.jpg",
+    "source": "Pexels",
+    "source_query": "white shirt fashion",
+    "pexels_id": 31747191,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "top",
+      "style": "casual",
+      "material": "cotton",
+      "color_palette": [
+        "white"
+      ],
+      "pattern": "solid",
+      "season": "spring/summer",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-058-10548236.jpg",
+    "source": "Pexels",
+    "source_query": "white shirt fashion",
+    "pexels_id": 10548236,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "top",
+      "style": "casual",
+      "material": "cotton",
+      "color_palette": [
+        "white"
+      ],
+      "pattern": "solid",
+      "season": "spring/summer",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-059-11413721.jpg",
+    "source": "Pexels",
+    "source_query": "white shirt fashion",
+    "pexels_id": 11413721,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "top",
+      "style": "casual",
+      "material": "cotton",
+      "color_palette": [
+        "white"
+      ],
+      "pattern": "solid",
+      "season": "spring/summer",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-060-7322078.jpg",
+    "source": "Pexels",
+    "source_query": "white shirt fashion",
+    "pexels_id": 7322078,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "top",
+      "style": "casual",
+      "material": "cotton",
+      "color_palette": [
+        "white"
+      ],
+      "pattern": "solid",
+      "season": "spring/summer",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-061-15870276.jpg",
+    "source": "Pexels",
+    "source_query": "white shirt fashion",
+    "pexels_id": 15870276,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "top",
+      "style": "casual",
+      "material": "cotton",
+      "color_palette": [
+        "white"
+      ],
+      "pattern": "solid",
+      "season": "spring/summer",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-062-13900396.jpg",
+    "source": "Pexels",
+    "source_query": "white shirt fashion",
+    "pexels_id": 13900396,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "top",
+      "style": "casual",
+      "material": "cotton",
+      "color_palette": [
+        "white"
+      ],
+      "pattern": "solid",
+      "season": "spring/summer",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-063-4456784.jpg",
+    "source": "Pexels",
+    "source_query": "white shirt fashion",
+    "pexels_id": 4456784,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "top",
+      "style": "casual",
+      "material": "cotton",
+      "color_palette": [
+        "white"
+      ],
+      "pattern": "solid",
+      "season": "spring/summer",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-064-15758623.jpg",
+    "source": "Pexels",
+    "source_query": "white shirt fashion",
+    "pexels_id": 15758623,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "top",
+      "style": "casual",
+      "material": "cotton",
+      "color_palette": [
+        "white"
+      ],
+      "pattern": "solid",
+      "season": "spring/summer",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-065-11756940.jpg",
+    "source": "Pexels",
+    "source_query": "floral skirt fashion",
+    "pexels_id": 11756940,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "skirt",
+      "style": "casual",
+      "material": "unknown",
+      "color_palette": [
+        "unknown"
+      ],
+      "pattern": "printed",
+      "season": "spring/summer",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-066-34230549.jpg",
+    "source": "Pexels",
+    "source_query": "floral skirt fashion",
+    "pexels_id": 34230549,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "skirt",
+      "style": "casual",
+      "material": "unknown",
+      "color_palette": [
+        "unknown"
+      ],
+      "pattern": "printed",
+      "season": "spring/summer",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-067-5489730.jpg",
+    "source": "Pexels",
+    "source_query": "floral skirt fashion",
+    "pexels_id": 5489730,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "skirt",
+      "style": "casual",
+      "material": "unknown",
+      "color_palette": [
+        "unknown"
+      ],
+      "pattern": "printed",
+      "season": "spring/summer",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-068-31094916.jpg",
+    "source": "Pexels",
+    "source_query": "floral skirt fashion",
+    "pexels_id": 31094916,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "skirt",
+      "style": "casual",
+      "material": "unknown",
+      "color_palette": [
+        "unknown"
+      ],
+      "pattern": "printed",
+      "season": "spring/summer",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-069-10433701.jpg",
+    "source": "Pexels",
+    "source_query": "floral skirt fashion",
+    "pexels_id": 10433701,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "skirt",
+      "style": "casual",
+      "material": "unknown",
+      "color_palette": [
+        "unknown"
+      ],
+      "pattern": "printed",
+      "season": "spring/summer",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-070-5081611.jpg",
+    "source": "Pexels",
+    "source_query": "floral skirt fashion",
+    "pexels_id": 5081611,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "skirt",
+      "style": "casual",
+      "material": "unknown",
+      "color_palette": [
+        "unknown"
+      ],
+      "pattern": "printed",
+      "season": "spring/summer",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-071-19122038.jpg",
+    "source": "Pexels",
+    "source_query": "floral skirt fashion",
+    "pexels_id": 19122038,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "skirt",
+      "style": "casual",
+      "material": "unknown",
+      "color_palette": [
+        "unknown"
+      ],
+      "pattern": "printed",
+      "season": "spring/summer",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-072-5906464.jpg",
+    "source": "Pexels",
+    "source_query": "floral skirt fashion",
+    "pexels_id": 5906464,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "skirt",
+      "style": "casual",
+      "material": "unknown",
+      "color_palette": [
+        "unknown"
+      ],
+      "pattern": "printed",
+      "season": "spring/summer",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-073-33875929.jpg",
+    "source": "Pexels",
+    "source_query": "floral skirt fashion",
+    "pexels_id": 33875929,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "skirt",
+      "style": "casual",
+      "material": "unknown",
+      "color_palette": [
+        "unknown"
+      ],
+      "pattern": "printed",
+      "season": "spring/summer",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-074-14929895.jpg",
+    "source": "Pexels",
+    "source_query": "floral skirt fashion",
+    "pexels_id": 14929895,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "skirt",
+      "style": "casual",
+      "material": "unknown",
+      "color_palette": [
+        "unknown"
+      ],
+      "pattern": "printed",
+      "season": "spring/summer",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-075-1684079.jpg",
+    "source": "Pexels",
+    "source_query": "floral skirt fashion",
+    "pexels_id": 1684079,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "skirt",
+      "style": "casual",
+      "material": "unknown",
+      "color_palette": [
+        "unknown"
+      ],
+      "pattern": "printed",
+      "season": "spring/summer",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-076-7463975.jpg",
+    "source": "Pexels",
+    "source_query": "floral skirt fashion",
+    "pexels_id": 7463975,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "skirt",
+      "style": "casual",
+      "material": "unknown",
+      "color_palette": [
+        "unknown"
+      ],
+      "pattern": "printed",
+      "season": "spring/summer",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-077-17550344.jpg",
+    "source": "Pexels",
+    "source_query": "floral skirt fashion",
+    "pexels_id": 17550344,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "skirt",
+      "style": "casual",
+      "material": "unknown",
+      "color_palette": [
+        "unknown"
+      ],
+      "pattern": "printed",
+      "season": "spring/summer",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-078-36658707.jpg",
+    "source": "Pexels",
+    "source_query": "floral skirt fashion",
+    "pexels_id": 36658707,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "skirt",
+      "style": "casual",
+      "material": "unknown",
+      "color_palette": [
+        "unknown"
+      ],
+      "pattern": "printed",
+      "season": "spring/summer",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-079-13515057.jpg",
+    "source": "Pexels",
+    "source_query": "floral skirt fashion",
+    "pexels_id": 13515057,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "skirt",
+      "style": "casual",
+      "material": "unknown",
+      "color_palette": [
+        "unknown"
+      ],
+      "pattern": "printed",
+      "season": "spring/summer",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  },
+  {
+    "image_path": "eval/dataset/images/pexels-080-13515063.jpg",
+    "source": "Pexels",
+    "source_query": "floral skirt fashion",
+    "pexels_id": 13515063,
+    "mime_type": "image/jpeg",
+    "expected": {
+      "garment_type": "skirt",
+      "style": "casual",
+      "material": "unknown",
+      "color_palette": [
+        "unknown"
+      ],
+      "pattern": "printed",
+      "season": "spring/summer",
+      "occasion": "everyday",
+      "consumer_profile": "general fashion customer",
+      "trend_notes": "Pexels fashion image",
+      "location_context": "unknown"
+    },
+    "needs_manual_review": true
+  }
+]

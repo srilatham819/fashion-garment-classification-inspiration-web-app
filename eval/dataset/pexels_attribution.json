@@ -1,0 +1,642 @@
+[
+  {
+    "pexels_id": 34795625,
+    "photographer": "Alexander Mass",
+    "photographer_url": "https://www.pexels.com/@alexander-mass-748453803",
+    "photo_url": "https://www.pexels.com/photo/stylish-woman-in-black-dress-outdoors-34795625/",
+    "local_file": "eval/dataset/images/pexels-001-34795625.jpg",
+    "source_query": "black dress fashion"
+  },
+  {
+    "pexels_id": 36041576,
+    "photographer": "Guillermo Berlin",
+    "photographer_url": "https://www.pexels.com/@guillermo-berlin-1524368912",
+    "photo_url": "https://www.pexels.com/photo/chic-woman-in-black-dress-walking-outdoors-36041576/",
+    "local_file": "eval/dataset/images/pexels-002-36041576.jpg",
+    "source_query": "black dress fashion"
+  },
+  {
+    "pexels_id": 32367700,
+    "photographer": "Angel Rkaoz",
+    "photographer_url": "https://www.pexels.com/@angel-rkaoz-505465009",
+    "photo_url": "https://www.pexels.com/photo/elegant-woman-in-chic-black-dress-posing-32367700/",
+    "local_file": "eval/dataset/images/pexels-003-32367700.jpg",
+    "source_query": "black dress fashion"
+  },
+  {
+    "pexels_id": 28536974,
+    "photographer": "Eddson Lens",
+    "photographer_url": "https://www.pexels.com/@eddson-lens-748406628",
+    "photo_url": "https://www.pexels.com/photo/stylish-woman-posing-in-black-and-white-fashion-28536974/",
+    "local_file": "eval/dataset/images/pexels-004-28536974.jpg",
+    "source_query": "black dress fashion"
+  },
+  {
+    "pexels_id": 12721579,
+    "photographer": "Connor Scott McManus",
+    "photographer_url": "https://www.pexels.com/@connorscottmcmanus",
+    "photo_url": "https://www.pexels.com/photo/women-in-black-sleeveless-dresses-12721579/",
+    "local_file": "eval/dataset/images/pexels-005-12721579.jpg",
+    "source_query": "black dress fashion"
+  },
+  {
+    "pexels_id": 8825715,
+    "photographer": "G\u00fcnel Zeynalova",
+    "photographer_url": "https://www.pexels.com/@gunelzeynalova",
+    "photo_url": "https://www.pexels.com/photo/woman-wearing-an-elegant-black-dress-standing-in-front-of-a-building-in-city-8825715/",
+    "local_file": "eval/dataset/images/pexels-006-8825715.jpg",
+    "source_query": "black dress fashion"
+  },
+  {
+    "pexels_id": 28627820,
+    "photographer": "Dream_ maKkerzz",
+    "photographer_url": "https://www.pexels.com/@dream_-makkerzz-1603229",
+    "photo_url": "https://www.pexels.com/photo/elegant-woman-in-black-dress-at-historic-venue-28627820/",
+    "local_file": "eval/dataset/images/pexels-007-28627820.jpg",
+    "source_query": "black dress fashion"
+  },
+  {
+    "pexels_id": 8429050,
+    "photographer": "cottonbro studio",
+    "photographer_url": "https://www.pexels.com/@cottonbro",
+    "photo_url": "https://www.pexels.com/photo/a-woman-in-a-black-dress-posing-8429050/",
+    "local_file": "eval/dataset/images/pexels-008-8429050.jpg",
+    "source_query": "black dress fashion"
+  },
+  {
+    "pexels_id": 37079387,
+    "photographer": "Speak Media Uganda",
+    "photographer_url": "https://www.pexels.com/@speakmediauganda",
+    "photo_url": "https://www.pexels.com/photo/elegant-woman-in-black-evening-dress-indoors-37079387/",
+    "local_file": "eval/dataset/images/pexels-009-37079387.jpg",
+    "source_query": "black dress fashion"
+  },
+  {
+    "pexels_id": 28640866,
+    "photographer": "Dream_ maKkerzz",
+    "photographer_url": "https://www.pexels.com/@dream_-makkerzz-1603229",
+    "photo_url": "https://www.pexels.com/photo/elegant-woman-in-black-dress-in-natural-setting-28640866/",
+    "local_file": "eval/dataset/images/pexels-010-28640866.jpg",
+    "source_query": "black dress fashion"
+  },
+  {
+    "pexels_id": 9509648,
+    "photographer": "cottonbro studio",
+    "photographer_url": "https://www.pexels.com/@cottonbro",
+    "photo_url": "https://www.pexels.com/photo/woman-wearing-her-black-gown-during-the-fashion-show-9509648/",
+    "local_file": "eval/dataset/images/pexels-011-9509648.jpg",
+    "source_query": "black dress fashion"
+  },
+  {
+    "pexels_id": 15131682,
+    "photographer": "eduardo199o9",
+    "photographer_url": "https://www.pexels.com/@eduardo199o9-178988127",
+    "photo_url": "https://www.pexels.com/photo/brunette-in-black-pants-15131682/",
+    "local_file": "eval/dataset/images/pexels-012-15131682.jpg",
+    "source_query": "black dress fashion"
+  },
+  {
+    "pexels_id": 15595740,
+    "photographer": "Marcus Queiroga Silva",
+    "photographer_url": "https://www.pexels.com/@marcus-queiroga-silva-86421404",
+    "photo_url": "https://www.pexels.com/photo/young-woman-in-a-black-dress-on-a-fashion-show-15595740/",
+    "local_file": "eval/dataset/images/pexels-013-15595740.jpg",
+    "source_query": "black dress fashion"
+  },
+  {
+    "pexels_id": 19927157,
+    "photographer": "James L",
+    "photographer_url": "https://www.pexels.com/@james-l-349383308",
+    "photo_url": "https://www.pexels.com/photo/brunette-wearing-heels-to-black-dress-19927157/",
+    "local_file": "eval/dataset/images/pexels-014-19927157.jpg",
+    "source_query": "black dress fashion"
+  },
+  {
+    "pexels_id": 20821760,
+    "photographer": "Lucretius  Mooka",
+    "photographer_url": "https://www.pexels.com/@lucretius-mooka-2554524",
+    "photo_url": "https://www.pexels.com/photo/young-woman-in-a-black-dress-standing-outside-at-dusk-20821760/",
+    "local_file": "eval/dataset/images/pexels-015-20821760.jpg",
+    "source_query": "black dress fashion"
+  },
+  {
+    "pexels_id": 36517718,
+    "photographer": "Vika Glitter",
+    "photographer_url": "https://www.pexels.com/@vika-glitter-392079",
+    "photo_url": "https://www.pexels.com/photo/elegant-woman-in-a-colorful-evening-gown-36517718/",
+    "local_file": "eval/dataset/images/pexels-016-36517718.jpg",
+    "source_query": "black dress fashion"
+  },
+  {
+    "pexels_id": 16787203,
+    "photographer": "Tu\u011fba Sar\u0131ta\u015f",
+    "photographer_url": "https://www.pexels.com/@filiamariss",
+    "photo_url": "https://www.pexels.com/photo/a-woman-wearing-red-dress-on-the-beach-16787203/",
+    "local_file": "eval/dataset/images/pexels-017-16787203.jpg",
+    "source_query": "red dress fashion"
+  },
+  {
+    "pexels_id": 36747257,
+    "photographer": "Vika Glitter",
+    "photographer_url": "https://www.pexels.com/@vika-glitter-392079",
+    "photo_url": "https://www.pexels.com/photo/elegant-woman-in-red-dress-and-hat-on-black-background-36747257/",
+    "local_file": "eval/dataset/images/pexels-018-36747257.jpg",
+    "source_query": "red dress fashion"
+  },
+  {
+    "pexels_id": 34846758,
+    "photographer": "Magda Ehlers",
+    "photographer_url": "https://www.pexels.com/@magda-ehlers-pexels",
+    "photo_url": "https://www.pexels.com/photo/elegant-red-evening-gown-with-high-slit-34846758/",
+    "local_file": "eval/dataset/images/pexels-019-34846758.jpg",
+    "source_query": "red dress fashion"
+  },
+  {
+    "pexels_id": 33619044,
+    "photographer": "pexels by ardarh",
+    "photographer_url": "https://www.pexels.com/@pexels-by-ardarh-664883754",
+    "photo_url": "https://www.pexels.com/photo/elegant-woman-in-red-dress-outdoors-33619044/",
+    "local_file": "eval/dataset/images/pexels-020-33619044.jpg",
+    "source_query": "red dress fashion"
+  },
+  {
+    "pexels_id": 10238560,
+    "photographer": "Ferdinand Studio",
+    "photographer_url": "https://www.pexels.com/@ferdinandstudio",
+    "photo_url": "https://www.pexels.com/photo/woman-holding-a-red-gown-10238560/",
+    "local_file": "eval/dataset/images/pexels-021-10238560.jpg",
+    "source_query": "red dress fashion"
+  },
+  {
+    "pexels_id": 36195495,
+    "photographer": "Vika Glitter",
+    "photographer_url": "https://www.pexels.com/@vika-glitter-392079",
+    "photo_url": "https://www.pexels.com/photo/elegant-woman-in-red-dress-with-bold-hat-36195495/",
+    "local_file": "eval/dataset/images/pexels-022-36195495.jpg",
+    "source_query": "red dress fashion"
+  },
+  {
+    "pexels_id": 23995967,
+    "photographer": "Andrea Musto",
+    "photographer_url": "https://www.pexels.com/@andrea-musto-135941147",
+    "photo_url": "https://www.pexels.com/photo/woman-in-dress-23995967/",
+    "local_file": "eval/dataset/images/pexels-023-23995967.jpg",
+    "source_query": "red dress fashion"
+  },
+  {
+    "pexels_id": 34160661,
+    "photographer": "Vika Glitter",
+    "photographer_url": "https://www.pexels.com/@vika-glitter-392079",
+    "photo_url": "https://www.pexels.com/photo/elegant-woman-in-red-dress-at-formal-event-34160661/",
+    "local_file": "eval/dataset/images/pexels-024-34160661.jpg",
+    "source_query": "red dress fashion"
+  },
+  {
+    "pexels_id": 33045461,
+    "photographer": "_mamadvali",
+    "photographer_url": "https://www.pexels.com/@mamadvali",
+    "photo_url": "https://www.pexels.com/photo/stylish-woman-in-vibrant-red-dress-outdoors-33045461/",
+    "local_file": "eval/dataset/images/pexels-025-33045461.jpg",
+    "source_query": "red dress fashion"
+  },
+  {
+    "pexels_id": 33619029,
+    "photographer": "pexels by ardarh",
+    "photographer_url": "https://www.pexels.com/@pexels-by-ardarh-664883754",
+    "photo_url": "https://www.pexels.com/photo/woman-in-red-dress-walking-smoothly-outdoors-33619029/",
+    "local_file": "eval/dataset/images/pexels-026-33619029.jpg",
+    "source_query": "red dress fashion"
+  },
+  {
+    "pexels_id": 36719347,
+    "photographer": "AR_fotografo.Ec Eddy Rodriguez",
+    "photographer_url": "https://www.pexels.com/@ar_fotografo-ec-eddy-rodriguez-1481855876",
+    "photo_url": "https://www.pexels.com/photo/elegant-woman-in-red-ball-gown-outdoors-36719347/",
+    "local_file": "eval/dataset/images/pexels-027-36719347.jpg",
+    "source_query": "red dress fashion"
+  },
+  {
+    "pexels_id": 6494112,
+    "photographer": "cottonbro studio",
+    "photographer_url": "https://www.pexels.com/@cottonbro",
+    "photo_url": "https://www.pexels.com/photo/a-man-wearing-a-gown-6494112/",
+    "local_file": "eval/dataset/images/pexels-028-6494112.jpg",
+    "source_query": "red dress fashion"
+  },
+  {
+    "pexels_id": 17032364,
+    "photographer": "Roman Israel Terron Flores",
+    "photographer_url": "https://www.pexels.com/@roman-israel-terron-flores-291936532",
+    "photo_url": "https://www.pexels.com/photo/woman-in-hat-and-red-dress-17032364/",
+    "local_file": "eval/dataset/images/pexels-029-17032364.jpg",
+    "source_query": "red dress fashion"
+  },
+  {
+    "pexels_id": 19895956,
+    "photographer": "Marcelo Verfe",
+    "photographer_url": "https://www.pexels.com/@marceloverfe",
+    "photo_url": "https://www.pexels.com/photo/red-dress-on-hanger-19895956/",
+    "local_file": "eval/dataset/images/pexels-030-19895956.jpg",
+    "source_query": "red dress fashion"
+  },
+  {
+    "pexels_id": 36195505,
+    "photographer": "Vika Glitter",
+    "photographer_url": "https://www.pexels.com/@vika-glitter-392079",
+    "photo_url": "https://www.pexels.com/photo/elegant-woman-in-red-dress-and-fascinator-pose-36195505/",
+    "local_file": "eval/dataset/images/pexels-031-36195505.jpg",
+    "source_query": "red dress fashion"
+  },
+  {
+    "pexels_id": 31096472,
+    "photographer": "Oben Kural",
+    "photographer_url": "https://www.pexels.com/@obenkural",
+    "photo_url": "https://www.pexels.com/photo/elegant-woman-in-red-dress-studio-portrait-31096472/",
+    "local_file": "eval/dataset/images/pexels-032-31096472.jpg",
+    "source_query": "red dress fashion"
+  },
+  {
+    "pexels_id": 30615470,
+    "photographer": "Wolrider YURTSEVEN",
+    "photographer_url": "https://www.pexels.com/@wolrider",
+    "photo_url": "https://www.pexels.com/photo/fashionable-man-in-vintage-streetwear-jacket-30615470/",
+    "local_file": "eval/dataset/images/pexels-033-30615470.jpg",
+    "source_query": "streetwear jacket fashion"
+  },
+  {
+    "pexels_id": 34887628,
+    "photographer": "Rimiscky Tayuna",
+    "photographer_url": "https://www.pexels.com/@rimiscky",
+    "photo_url": "https://www.pexels.com/photo/stylish-man-in-colorful-jacket-at-urban-landmark-34887628/",
+    "local_file": "eval/dataset/images/pexels-034-34887628.jpg",
+    "source_query": "streetwear jacket fashion"
+  },
+  {
+    "pexels_id": 36466501,
+    "photographer": "Sahfy lenz",
+    "photographer_url": "https://www.pexels.com/@sahfy-lenz-2153643467",
+    "photo_url": "https://www.pexels.com/photo/stylish-man-in-checkered-jacket-and-red-cap-36466501/",
+    "local_file": "eval/dataset/images/pexels-035-36466501.jpg",
+    "source_query": "streetwear jacket fashion"
+  },
+  {
+    "pexels_id": 33790024,
+    "photographer": "Victor Chijioke",
+    "photographer_url": "https://www.pexels.com/@victor-chijioke-350220031",
+    "photo_url": "https://www.pexels.com/photo/urban-fashion-portrait-of-young-man-with-star-jacket-33790024/",
+    "local_file": "eval/dataset/images/pexels-036-33790024.jpg",
+    "source_query": "streetwear jacket fashion"
+  },
+  {
+    "pexels_id": 25745247,
+    "photographer": "mahdi chaghari",
+    "photographer_url": "https://www.pexels.com/@mahdi-chaghari-9996334",
+    "photo_url": "https://www.pexels.com/photo/young-woman-in-a-trendy-outfit-sitting-on-steps-in-a-city-25745247/",
+    "local_file": "eval/dataset/images/pexels-037-25745247.jpg",
+    "source_query": "streetwear jacket fashion"
+  },
+  {
+    "pexels_id": 31696292,
+    "photographer": "Murat I\u015eIK",
+    "photographer_url": "https://www.pexels.com/@bymuratisikofficial",
+    "photo_url": "https://www.pexels.com/photo/stylish-man-wearing-sunglasses-outdoors-in-urban-setting-31696292/",
+    "local_file": "eval/dataset/images/pexels-038-31696292.jpg",
+    "source_query": "streetwear jacket fashion"
+  },
+  {
+    "pexels_id": 21628906,
+    "photographer": "mohamed abdelghaffar",
+    "photographer_url": "https://www.pexels.com/@moh-adbelghaffar",
+    "photo_url": "https://www.pexels.com/photo/man-in-jacket-shirt-and-tie-21628906/",
+    "local_file": "eval/dataset/images/pexels-039-21628906.jpg",
+    "source_query": "streetwear jacket fashion"
+  },
+  {
+    "pexels_id": 12712957,
+    "photographer": "Alan Garz\u00f3n",
+    "photographer_url": "https://www.pexels.com/@alan-garzon-180446366",
+    "photo_url": "https://www.pexels.com/photo/man-in-a-baseball-cap-and-in-street-style-clothing-12712957/",
+    "local_file": "eval/dataset/images/pexels-040-12712957.jpg",
+    "source_query": "streetwear jacket fashion"
+  },
+  {
+    "pexels_id": 30615429,
+    "photographer": "Wolrider YURTSEVEN",
+    "photographer_url": "https://www.pexels.com/@wolrider",
+    "photo_url": "https://www.pexels.com/photo/trendy-urban-fashion-with-graphic-jacket-30615429/",
+    "local_file": "eval/dataset/images/pexels-041-30615429.jpg",
+    "source_query": "streetwear jacket fashion"
+  },
+  {
+    "pexels_id": 19583556,
+    "photographer": "G\u00f6rkem  Dalg\u0131\u00e7",
+    "photographer_url": "https://www.pexels.com/@gorkem-dalgic-230969855",
+    "photo_url": "https://www.pexels.com/photo/sitting-woman-in-college-jacket-and-round-eyeglasses-19583556/",
+    "local_file": "eval/dataset/images/pexels-042-19583556.jpg",
+    "source_query": "streetwear jacket fashion"
+  },
+  {
+    "pexels_id": 14902769,
+    "photographer": "Burak Evlivan",
+    "photographer_url": "https://www.pexels.com/@evlivanburak",
+    "photo_url": "https://www.pexels.com/photo/man-wearing-a-leather-jacket-14902769/",
+    "local_file": "eval/dataset/images/pexels-043-14902769.jpg",
+    "source_query": "streetwear jacket fashion"
+  },
+  {
+    "pexels_id": 18213661,
+    "photographer": "Mad Knoxx Deluxe",
+    "photographer_url": "https://www.pexels.com/@madknoxxdeluxe",
+    "photo_url": "https://www.pexels.com/photo/man-in-warm-jacket-fixing-sunglasses-18213661/",
+    "local_file": "eval/dataset/images/pexels-044-18213661.jpg",
+    "source_query": "streetwear jacket fashion"
+  },
+  {
+    "pexels_id": 16144391,
+    "photographer": "L\u00ea \u0110\u1ee9c",
+    "photographer_url": "https://www.pexels.com/@lngdik23",
+    "photo_url": "https://www.pexels.com/photo/young-woman-in-sunglasses-and-casual-clothes-16144391/",
+    "local_file": "eval/dataset/images/pexels-045-16144391.jpg",
+    "source_query": "streetwear jacket fashion"
+  },
+  {
+    "pexels_id": 19207660,
+    "photographer": "mohadese",
+    "photographer_url": "https://www.pexels.com/@mohadese-5538997",
+    "photo_url": "https://www.pexels.com/photo/portrait-of-man-wearing-sunglasses-on-a-street-19207660/",
+    "local_file": "eval/dataset/images/pexels-046-19207660.jpg",
+    "source_query": "streetwear jacket fashion"
+  },
+  {
+    "pexels_id": 30208479,
+    "photographer": "Mustapha Damilola",
+    "photographer_url": "https://www.pexels.com/@mustapha-damilola-458083529",
+    "photo_url": "https://www.pexels.com/photo/fashion-forward-urban-style-in-modern-hallway-30208479/",
+    "local_file": "eval/dataset/images/pexels-047-30208479.jpg",
+    "source_query": "streetwear jacket fashion"
+  },
+  {
+    "pexels_id": 14474134,
+    "photographer": "Marek Mucha",
+    "photographer_url": "https://www.pexels.com/@marcc",
+    "photo_url": "https://www.pexels.com/photo/a-man-wearing-baseball-jacket-standing-on-sidewalk-14474134/",
+    "local_file": "eval/dataset/images/pexels-048-14474134.jpg",
+    "source_query": "streetwear jacket fashion"
+  },
+  {
+    "pexels_id": 5772142,
+    "photographer": "cottonbro studio",
+    "photographer_url": "https://www.pexels.com/@cottonbro",
+    "photo_url": "https://www.pexels.com/photo/a-woman-wearing-a-shirt-with-a-clothes-hanger-5772142/",
+    "local_file": "eval/dataset/images/pexels-049-5772142.jpg",
+    "source_query": "white shirt fashion"
+  },
+  {
+    "pexels_id": 9725690,
+    "photographer": "\u0414\u0438\u0430\u043d\u0430 \u0414\u0443\u043d\u0430\u0435\u0432\u0430",
+    "photographer_url": "https://www.pexels.com/@1434506",
+    "photo_url": "https://www.pexels.com/photo/portrait-of-young-woman-in-city-9725690/",
+    "local_file": "eval/dataset/images/pexels-050-9725690.jpg",
+    "source_query": "white shirt fashion"
+  },
+  {
+    "pexels_id": 15568823,
+    "photographer": "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0421\u043b\u0435\u0441\u0430\u0440\u0435\u0432",
+    "photographer_url": "https://www.pexels.com/@429124762",
+    "photo_url": "https://www.pexels.com/photo/woman-wearing-a-shirt-15568823/",
+    "local_file": "eval/dataset/images/pexels-051-15568823.jpg",
+    "source_query": "white shirt fashion"
+  },
+  {
+    "pexels_id": 4456775,
+    "photographer": "Nataliya Vaitkevich",
+    "photographer_url": "https://www.pexels.com/@n-voitkevich",
+    "photo_url": "https://www.pexels.com/photo/woman-in-white-dress-shirt-sitting-on-a-chair-4456775/",
+    "local_file": "eval/dataset/images/pexels-052-4456775.jpg",
+    "source_query": "white shirt fashion"
+  },
+  {
+    "pexels_id": 8994565,
+    "photographer": "Mahdi Bafande",
+    "photographer_url": "https://www.pexels.com/@mahdibafande",
+    "photo_url": "https://www.pexels.com/photo/low-angle-shot-of-a-man-wearing-white-polo-shirt-8994565/",
+    "local_file": "eval/dataset/images/pexels-053-8994565.jpg",
+    "source_query": "white shirt fashion"
+  },
+  {
+    "pexels_id": 7682248,
+    "photographer": "Mikhail Nilov",
+    "photographer_url": "https://www.pexels.com/@mikhail-nilov",
+    "photo_url": "https://www.pexels.com/photo/woman-in-dress-shirt-leaning-on-black-wall-while-looking-to-her-left-7682248/",
+    "local_file": "eval/dataset/images/pexels-054-7682248.jpg",
+    "source_query": "white shirt fashion"
+  },
+  {
+    "pexels_id": 6729831,
+    "photographer": "George Shervashidze",
+    "photographer_url": "https://www.pexels.com/@automnenoble",
+    "photo_url": "https://www.pexels.com/photo/beautiful-woman-in-a-white-dress-shirt-looking-at-the-camera-6729831/",
+    "local_file": "eval/dataset/images/pexels-055-6729831.jpg",
+    "source_query": "white shirt fashion"
+  },
+  {
+    "pexels_id": 7322086,
+    "photographer": "Alena Darmel",
+    "photographer_url": "https://www.pexels.com/@a-darmel",
+    "photo_url": "https://www.pexels.com/photo/elderly-man-posing-for-the-camera-7322086/",
+    "local_file": "eval/dataset/images/pexels-056-7322086.jpg",
+    "source_query": "white shirt fashion"
+  },
+  {
+    "pexels_id": 31747191,
+    "photographer": "Valeria Boltneva",
+    "photographer_url": "https://www.pexels.com/@valeriya",
+    "photo_url": "https://www.pexels.com/photo/minimalist-fashion-portrait-with-red-and-white-outfit-31747191/",
+    "local_file": "eval/dataset/images/pexels-057-31747191.jpg",
+    "source_query": "white shirt fashion"
+  },
+  {
+    "pexels_id": 10548236,
+    "photographer": "Luis Alberto Cardenas Otaya",
+    "photographer_url": "https://www.pexels.com/@luis-alberto-cardenas-otaya-2321018",
+    "photo_url": "https://www.pexels.com/photo/shallow-focus-of-a-dreadlocked-man-wearing-eyeglasses-10548236/",
+    "local_file": "eval/dataset/images/pexels-058-10548236.jpg",
+    "source_query": "white shirt fashion"
+  },
+  {
+    "pexels_id": 11413721,
+    "photographer": "Viktorya  Sergeeva \ud83e\udec2",
+    "photographer_url": "https://www.pexels.com/@johndetochka",
+    "photo_url": "https://www.pexels.com/photo/woman-in-white-dress-shirt-and-denim-pants-11413721/",
+    "local_file": "eval/dataset/images/pexels-059-11413721.jpg",
+    "source_query": "white shirt fashion"
+  },
+  {
+    "pexels_id": 7322078,
+    "photographer": "Alena Darmel",
+    "photographer_url": "https://www.pexels.com/@a-darmel",
+    "photo_url": "https://www.pexels.com/photo/elderly-man-in-white-dress-shirt-7322078/",
+    "local_file": "eval/dataset/images/pexels-060-7322078.jpg",
+    "source_query": "white shirt fashion"
+  },
+  {
+    "pexels_id": 15870276,
+    "photographer": "Abhinav Kumar Sharma",
+    "photographer_url": "https://www.pexels.com/@abhinavkumarsharma",
+    "photo_url": "https://www.pexels.com/photo/man-posing-in-white-shirt-15870276/",
+    "local_file": "eval/dataset/images/pexels-061-15870276.jpg",
+    "source_query": "white shirt fashion"
+  },
+  {
+    "pexels_id": 13900396,
+    "photographer": "Richard O.",
+    "photographer_url": "https://www.pexels.com/@richard-o-274854502",
+    "photo_url": "https://www.pexels.com/photo/woman-in-white-long-sleeve-shirt-and-black-pants-13900396/",
+    "local_file": "eval/dataset/images/pexels-062-13900396.jpg",
+    "source_query": "white shirt fashion"
+  },
+  {
+    "pexels_id": 4456784,
+    "photographer": "Nataliya Vaitkevich",
+    "photographer_url": "https://www.pexels.com/@n-voitkevich",
+    "photo_url": "https://www.pexels.com/photo/woman-in-white-long-sleeve-shirt-sitting-on-a-chair-4456784/",
+    "local_file": "eval/dataset/images/pexels-063-4456784.jpg",
+    "source_query": "white shirt fashion"
+  },
+  {
+    "pexels_id": 15758623,
+    "photographer": "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0421\u043b\u0435\u0441\u0430\u0440\u0435\u0432",
+    "photographer_url": "https://www.pexels.com/@429124762",
+    "photo_url": "https://www.pexels.com/photo/women-wearing-corsets-15758623/",
+    "local_file": "eval/dataset/images/pexels-064-15758623.jpg",
+    "source_query": "white shirt fashion"
+  },
+  {
+    "pexels_id": 11756940,
+    "photographer": "Lan Anh  Ho\u00e0ng",
+    "photographer_url": "https://www.pexels.com/@hoanglananh113355",
+    "photo_url": "https://www.pexels.com/photo/beautiful-woman-in-sunhat-and-floral-skirt-11756940/",
+    "local_file": "eval/dataset/images/pexels-065-11756940.jpg",
+    "source_query": "floral skirt fashion"
+  },
+  {
+    "pexels_id": 34230549,
+    "photographer": "Umar  Faruq",
+    "photographer_url": "https://www.pexels.com/@umar-faruq-1662051319",
+    "photo_url": "https://www.pexels.com/photo/fashionable-woman-posing-in-floral-skirt-outdoors-34230549/",
+    "local_file": "eval/dataset/images/pexels-066-34230549.jpg",
+    "source_query": "floral skirt fashion"
+  },
+  {
+    "pexels_id": 5489730,
+    "photographer": "Chalo Garcia",
+    "photographer_url": "https://www.pexels.com/@photosbychalo",
+    "photo_url": "https://www.pexels.com/photo/a-woman-wearing-a-floral-skirt-5489730/",
+    "local_file": "eval/dataset/images/pexels-067-5489730.jpg",
+    "source_query": "floral skirt fashion"
+  },
+  {
+    "pexels_id": 31094916,
+    "photographer": "pedro furtado",
+    "photographer_url": "https://www.pexels.com/@pedrofurtadoo",
+    "photo_url": "https://www.pexels.com/photo/elegant-summer-fashion-in-floral-dress-31094916/",
+    "local_file": "eval/dataset/images/pexels-068-31094916.jpg",
+    "source_query": "floral skirt fashion"
+  },
+  {
+    "pexels_id": 10433701,
+    "photographer": "cottonbro studio",
+    "photographer_url": "https://www.pexels.com/@cottonbro",
+    "photo_url": "https://www.pexels.com/photo/a-woman-standing-on-green-grass-field-10433701/",
+    "local_file": "eval/dataset/images/pexels-069-10433701.jpg",
+    "source_query": "floral skirt fashion"
+  },
+  {
+    "pexels_id": 5081611,
+    "photographer": "cottonbro studio",
+    "photographer_url": "https://www.pexels.com/@cottonbro",
+    "photo_url": "https://www.pexels.com/photo/woman-in-black-and-white-dress-sitting-on-rock-5081611/",
+    "local_file": "eval/dataset/images/pexels-070-5081611.jpg",
+    "source_query": "floral skirt fashion"
+  },
+  {
+    "pexels_id": 19122038,
+    "photographer": "Lord Varenn",
+    "photographer_url": "https://www.pexels.com/@pojuuu",
+    "photo_url": "https://www.pexels.com/photo/woman-holding-open-umbrella-standing-on-asph-19122038/",
+    "local_file": "eval/dataset/images/pexels-071-19122038.jpg",
+    "source_query": "floral skirt fashion"
+  },
+  {
+    "pexels_id": 5906464,
+    "photographer": "Luis Becerra  Fot\u00f3grafo",
+    "photographer_url": "https://www.pexels.com/@luisbecerrafotografo",
+    "photo_url": "https://www.pexels.com/photo/woman-in-a-bright-pink-dress-holding-a-flower-5906464/",
+    "local_file": "eval/dataset/images/pexels-072-5906464.jpg",
+    "source_query": "floral skirt fashion"
+  },
+  {
+    "pexels_id": 33875929,
+    "photographer": "Zulfugar Karimov",
+    "photographer_url": "https://www.pexels.com/@zulfugarkarimov",
+    "photo_url": "https://www.pexels.com/photo/stylish-woman-sitting-in-floral-corset-and-white-skirt-33875929/",
+    "local_file": "eval/dataset/images/pexels-073-33875929.jpg",
+    "source_query": "floral skirt fashion"
+  },
+  {
+    "pexels_id": 14929895,
+    "photographer": "Rahul Pandit",
+    "photographer_url": "https://www.pexels.com/@rahulp9800",
+    "photo_url": "https://www.pexels.com/photo/woman-in-white-sweater-and-floral-skirt-14929895/",
+    "local_file": "eval/dataset/images/pexels-074-14929895.jpg",
+    "source_query": "floral skirt fashion"
+  },
+  {
+    "pexels_id": 1684079,
+    "photographer": "Daria Obymaha",
+    "photographer_url": "https://www.pexels.com/@dariaobymaha",
+    "photo_url": "https://www.pexels.com/photo/woman-twirling-in-flowery-skirt-on-balcony-1684079/",
+    "local_file": "eval/dataset/images/pexels-075-1684079.jpg",
+    "source_query": "floral skirt fashion"
+  },
+  {
+    "pexels_id": 7463975,
+    "photographer": "Robert Reyes",
+    "photographer_url": "https://www.pexels.com/@robert-reyes-5078550",
+    "photo_url": "https://www.pexels.com/photo/woman-in-black-crop-top-and-floral-skirt-posing-7463975/",
+    "local_file": "eval/dataset/images/pexels-076-7463975.jpg",
+    "source_query": "floral skirt fashion"
+  },
+  {
+    "pexels_id": 17550344,
+    "photographer": "Vika Glitter",
+    "photographer_url": "https://www.pexels.com/@vika-glitter-392079",
+    "photo_url": "https://www.pexels.com/photo/woman-in-skirt-and-with-hat-posing-in-forest-17550344/",
+    "local_file": "eval/dataset/images/pexels-077-17550344.jpg",
+    "source_query": "floral skirt fashion"
+  },
+  {
+    "pexels_id": 36658707,
+    "photographer": "Astrid Sosa",
+    "photographer_url": "https://www.pexels.com/@astrid",
+    "photo_url": "https://www.pexels.com/photo/bohemian-woman-in-colorful-skirt-holding-flowers-36658707/",
+    "local_file": "eval/dataset/images/pexels-078-36658707.jpg",
+    "source_query": "floral skirt fashion"
+  },
+  {
+    "pexels_id": 13515057,
+    "photographer": "Brian Jiz",
+    "photographer_url": "https://www.pexels.com/@brianjiz",
+    "photo_url": "https://www.pexels.com/photo/young-fashionable-woman-in-a-summer-outfit-13515057/",
+    "local_file": "eval/dataset/images/pexels-079-13515057.jpg",
+    "source_query": "floral skirt fashion"
+  },
+  {
+    "pexels_id": 13515063,
+    "photographer": "Brian Jiz",
+    "photographer_url": "https://www.pexels.com/@brianjiz",
+    "photo_url": "https://www.pexels.com/photo/photo-of-a-woman-wearing-white-blouse-13515063/",
+    "local_file": "eval/dataset/images/pexels-080-13515063.jpg",
+    "source_query": "floral skirt fashion"
+  }
+]

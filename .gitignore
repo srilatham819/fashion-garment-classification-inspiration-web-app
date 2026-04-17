@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+.pytest_cache/
+.venv/
+.venv*/
+*.pyc
+*.db
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Environment
+.env
+.env.local
+
+# Local data
+backend/storage/
+eval/reports/*.json
+eval/reports/*.csv
+infra/faiss/*.index
