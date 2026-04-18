@@ -89,7 +89,7 @@ The strict model response includes:
 - `location_context`
 - `description`
 
-The prompt asks the model to return `unknown` when a field cannot be visually inferred. This is important for interview-quality GenAI work: the system should not invent material, location, or merchandising context when the image does not support it.
+The prompt asks the model to return `unknown` when a field cannot be visually inferred. This is important for review-quality GenAI work: the system should not invent material, location, or merchandising context when the image does not support it.
 
 ## Search
 
@@ -228,6 +228,6 @@ Frontend:
 
 The backend implementation includes upload, classification service wiring, strict JSON parsing, metadata persistence, semantic indexing, hybrid search, annotations, and evaluation scaffolding. The frontend includes upload, library browsing, hybrid search filters, detail inspection, classification status polling, and designer annotations.
 
-## Interview Guide
+## Technical Documentation
 
-For complete setup, usage, testing, evaluation, architecture, technology, tradeoff, and interview-prep notes, see [`docs/project_interview_guide.md`](docs/project_interview_guide.md).
+For complete setup, usage, testing, evaluation, architecture, technology, tradeoff, and technical review notes, see [`docs/technical_documentation.md`](docs/technical_documentation.md).

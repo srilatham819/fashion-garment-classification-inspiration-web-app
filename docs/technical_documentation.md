@@ -1,6 +1,6 @@
 # Fashion Garment Classification & Inspiration Web App
 
-Complete project documentation and interview guide for Srilatha.
+Complete technical documentation for Srilatha.
 
 ## 1. Project Summary
 
@@ -8,9 +8,9 @@ This project is a lightweight full-stack AI web application for fashion designer
 
 The project is intentionally scoped as a proof of concept. It demonstrates the end-to-end workflow, clean architecture, AI integration boundaries, evaluation thinking, and test coverage without trying to become a production asset management system.
 
-## 2. What the Case Study Asked For
+## 2. Case Study Requirements
 
-The document asked for:
+The source document asks for a lightweight AI-powered web app that helps fashion designers organize, search, and reuse inspiration imagery captured in the field. The required capabilities are:
 
 - A web app for uploading garment photos.
 - AI classification using a multimodal model.
@@ -28,7 +28,7 @@ The document asked for:
 - Clear README and architectural explanation.
 - Honest tradeoffs and limitations.
 
-## 3. Requirement Status
+## 3. Requirement Verification
 
 | Requirement | Status | Implementation |
 | --- | --- | --- |
@@ -45,7 +45,9 @@ The document asked for:
 | Evaluation set | Complete | 80 Pexels images are included under `eval/dataset/images`. |
 | Evaluation reports | Complete | `eval/reports/eval_summary.md` and generated JSON reports. |
 | Tests | Complete | Unit, integration, and end-to-end backend tests. |
-| Documentation | Complete | README plus this guide. |
+| Documentation | Complete | README plus this technical documentation. |
+
+Nothing from the case-study document is intentionally omitted. The only important caveat is evaluation label quality: the included 80-image Pexels dataset satisfies the requested size, but its labels are starter labels derived from query buckets and marked for manual review. A stronger production evaluation would manually verify every image label.
 
 ## 4. Technology Stack
 
@@ -342,51 +344,234 @@ Why this still helps:
 - It reveals where model behavior is weak.
 - It creates a framework for future prompt/model comparisons.
 
-## 11. Setup Instructions
+## 11. Local Setup Instructions
 
-### Backend
+The project has two running parts:
+
+- Backend API: FastAPI service that stores images, classifies them, saves metadata, searches, and stores annotations.
+- Frontend website: React/Vite app that calls the backend API.
+
+Run the backend and frontend in two separate terminal windows.
+
+### 11.1 Prerequisites
+
+Install these before starting:
+
+- Python 3.11 or newer. Python 3.12 is recommended.
+- Node.js 20 or newer.
+- npm, which is normally installed with Node.js.
+- Optional: Docker Desktop if you want PostgreSQL through `docker-compose`.
+- Optional: OpenAI API key if you want real multimodal classification instead of the local fallback.
+- Optional: Pexels API key if you want to download a fresh evaluation image set.
+
+### 11.2 Backend Setup, Command by Command
+
+Start from the repository root:
+
+```bash
+cd /path/to/fashion-garment-classification-inspiration-web-app
+```
+
+Purpose:
+
+- Moves your terminal into the root folder of the project.
+- All relative paths in later commands assume this location.
+
+Move into the backend folder:
 
 ```bash
 cd backend
+```
+
+Purpose:
+
+- The backend Python package and `pyproject.toml` live in this folder.
+- Running install/test commands here lets Python find the backend configuration.
+
+Create a Python virtual environment:
+
+```bash
 python3.12 -m venv .venv
+```
+
+Purpose:
+
+- Creates an isolated Python environment in `backend/.venv`.
+- Keeps project dependencies separate from your system Python.
+- If your machine uses `python3` instead of `python3.12`, use `python3 -m venv .venv`.
+
+Activate the virtual environment:
+
+```bash
 source .venv/bin/activate
+```
+
+Purpose:
+
+- Makes `python` and `pip` point to the project-specific environment.
+- You should see `(.venv)` in your terminal prompt after this command.
+
+Install backend dependencies:
+
+```bash
 python -m pip install -e ".[test]"
 ```
 
-SQLite demo environment:
+Purpose:
+
+- Installs the backend package in editable mode.
+- Installs runtime dependencies such as FastAPI, SQLAlchemy, OpenAI SDK, FAISS, Pillow, and Uvicorn.
+- Installs test dependencies such as Pytest and HTTPX.
+- Editable mode means code changes are picked up without reinstalling.
+
+### 11.3 Backend Environment Variables
+
+Environment variables configure where the backend stores data and whether it uses real AI services.
+
+Use SQLite for a simple local demo:
 
 ```bash
 export DATABASE_URL=sqlite:///./demo.db
+```
+
+Purpose:
+
+- Tells SQLAlchemy to use a local SQLite database file named `backend/demo.db`.
+- This is easiest for demos because you do not need PostgreSQL running.
+- The production-style default is PostgreSQL, but SQLite is supported for local setup and tests.
+
+Set the upload storage folder:
+
+```bash
 export UPLOAD_STORAGE_PATH=storage/uploads
+```
+
+Purpose:
+
+- Tells the backend where to save uploaded image files.
+- Because this command is run from `backend`, files are saved under `backend/storage/uploads`.
+- This folder is ignored by Git so uploaded local files are not committed.
+
+Set the vector index path:
+
+```bash
 export FAISS_INDEX_PATH=../infra/faiss/demo.index
+```
+
+Purpose:
+
+- Tells the semantic search layer where to store the FAISS vector index.
+- FAISS stores embeddings for AI-generated descriptions.
+- The path points to `infra/faiss/demo.index` from the backend folder.
+
+Enable local fallback classification:
+
+```bash
 export DEMO_AI_FALLBACK=true
 ```
 
-Optional OpenAI key:
+Purpose:
+
+- Lets the app classify images even when no OpenAI key is configured.
+- The fallback uses simple filename and pixel/color cues.
+- This is useful for local demos and tests, but it is not the high-quality AI path.
+
+Optional: enable real OpenAI multimodal classification:
 
 ```bash
 export OPENAI_API_KEY=your_openai_key
 ```
 
-Start backend:
+Purpose:
+
+- Allows the backend to call OpenAI for image classification and text embeddings.
+- Without this, the local fallback classifier is used.
+- Do not put this key in frontend code or commit it to Git.
+
+Optional: choose model names:
+
+```bash
+export OPENAI_VISION_MODEL=gpt-5.4-mini
+export OPENAI_EMBEDDING_MODEL=text-embedding-3-small
+```
+
+Purpose:
+
+- `OPENAI_VISION_MODEL` controls which multimodal model classifies images.
+- `OPENAI_EMBEDDING_MODEL` controls which embedding model indexes descriptions for semantic search.
+- Defaults already exist, so these exports are only needed if you want to override them.
+
+### 11.4 Start the Backend
+
+Run this from the `backend` folder with the virtual environment activated:
 
 ```bash
 uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
 ```
 
-### Frontend
+Purpose:
+
+- Starts the FastAPI API server.
+- `app.main:app` points Uvicorn to the FastAPI app object.
+- `--reload` restarts the server automatically when backend code changes.
+- `--host 127.0.0.1` makes the API available only on your machine.
+- `--port 8000` serves the API at `http://127.0.0.1:8000`.
+
+Check that the backend is running:
 
 ```bash
-cd frontend
+curl http://127.0.0.1:8000/api/health
+```
+
+Expected response:
+
+```json
+{"status":"ok"}
+```
+
+### 11.5 Frontend Setup, Command by Command
+
+Open a second terminal and go to the frontend folder:
+
+```bash
+cd /path/to/fashion-garment-classification-inspiration-web-app/frontend
+```
+
+Purpose:
+
+- The React app, Vite config, and frontend package files live here.
+
+Install frontend dependencies:
+
+```bash
 npm install
+```
+
+Purpose:
+
+- Installs React, Vite, TypeScript, and testing-related frontend packages into `frontend/node_modules`.
+- Reads `frontend/package.json` and `frontend/package-lock.json`.
+
+Start the frontend dev server:
+
+```bash
 VITE_API_BASE_URL=http://127.0.0.1:8000/api npm run dev
 ```
 
-Open:
+Purpose:
+
+- Starts the Vite development server.
+- `VITE_API_BASE_URL` tells the React app where the backend API is running.
+- `npm run dev` runs the Vite dev command from `package.json`.
+- The frontend usually opens at `http://127.0.0.1:5173`.
+
+Open the site:
 
 ```text
 http://127.0.0.1:5173/
 ```
+
+You should see the upload panel, hybrid search controls, image grid, and detail panel. The status badge should say `API online` when the frontend can reach the backend.
 
 ## 12. Seed Local Demo Data
 
@@ -401,6 +586,13 @@ python scripts/import_eval_dataset.py --labels eval/dataset/labels/labels.json -
 ```
 
 Then start the backend with the same database and storage paths.
+
+Why these inline variables are included:
+
+- `DATABASE_URL=sqlite:///./backend/demo.db` tells the import script to write to a root-relative demo database.
+- `UPLOAD_STORAGE_PATH=backend/storage/uploads` tells it where copied image files should go.
+- `FAISS_INDEX_PATH=infra/faiss/demo.index` tells it where to write the local vector index.
+- `OPENAI_API_KEY=` intentionally leaves OpenAI blank so the import uses the deterministic fallback classifier.
 
 ## 13. Refresh Pexels Images
 
@@ -544,7 +736,7 @@ It makes the app runnable without secret keys and keeps tests deterministic.
 - Add observability for model latency, errors, and cost.
 - Add deployment-specific storage and database configuration.
 
-## 20. Interview Questions and Good Answers
+## 20. Technical Review Questions and Suggested Answers
 
 ### What problem does this solve?
 
@@ -594,9 +786,9 @@ The frontend reads the loaded image metadata and derives unique values for each 
 
 SQLite makes tests and local demos simpler. PostgreSQL remains the intended durable production database.
 
-### What did you timebox?
+### What was timeboxed?
 
-I prioritized the end-to-end workflow, clean boundaries, tests, evaluation pipeline, and documentation. I deferred production infrastructure like auth, durable queues, cloud storage, and migrations.
+The project prioritizes the end-to-end workflow, clean boundaries, tests, evaluation pipeline, and documentation. Production infrastructure like auth, durable queues, cloud storage, and migrations is documented as future work.
 
 ## 21. Important Commands
 
@@ -652,7 +844,7 @@ Import Pexels demo data:
 python scripts/import_eval_dataset.py --labels eval/dataset/labels/labels.json --limit 80
 ```
 
-## 22. Final Reviewer Notes
+## 22. Final Technical Review Notes
 
 This submission is strongest as a proof of concept that demonstrates:
 
@@ -664,4 +856,4 @@ This submission is strongest as a proof of concept that demonstrates:
 - Clean testable backend architecture.
 - Honest documentation of tradeoffs.
 
-The main thing to communicate in the interview is that the system is intentionally small but shaped so each prototype choice has a production replacement path.
+The main point is that the system is intentionally small but shaped so each prototype choice has a production replacement path.
