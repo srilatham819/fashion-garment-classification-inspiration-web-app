@@ -17,6 +17,13 @@ export type SearchRequest = {
   occasion?: string;
   consumer_profile?: string;
   location_context?: string;
+  continent?: string;
+  country?: string;
+  city?: string;
+  year?: number;
+  month?: number;
+  designer?: string;
+  annotation?: string;
   limit: number;
 };
 
@@ -33,6 +40,9 @@ export type SearchResult = {
   occasion: string | null;
   consumer_profile: string | null;
   location_context: string | null;
+  created_at: string | null;
+  designers: string[];
+  annotation_text: string | null;
 };
 
 export type Annotation = {
@@ -63,6 +73,7 @@ export type LibraryImage = {
   status: string;
   image_url: string;
   error_message: string | null;
+  created_at: string | null;
   ai_metadata: Classification | null;
   annotations: Annotation[];
 };

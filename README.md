@@ -1,6 +1,6 @@
-# Atelier Lens AI
+# Fashion Garment Classification & Inspiration Web App
 
-Atelier Lens AI is a lightweight full-stack system by Srilatha for organizing field-captured fashion imagery. Designers can upload garment photos, classify them with a multimodal AI model, store structured fashion metadata, and retrieve inspiration through hybrid search that combines SQL filters with semantic vector similarity.
+Fashion Garment Classification & Inspiration Web App is a lightweight full-stack system by Srilatha for organizing field-captured fashion imagery. Designers can upload garment photos, classify them with a multimodal AI model, store structured fashion metadata, and retrieve inspiration through hybrid search that combines SQL filters with semantic vector similarity.
 
 The implementation is intentionally proof-of-concept sized, but the architecture is shaped like a production service: thin API routes, explicit service boundaries, repository-based persistence, strict model output validation, and a rerunnable evaluation pipeline.
 

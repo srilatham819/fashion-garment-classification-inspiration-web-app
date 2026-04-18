@@ -20,6 +20,13 @@ const emptyFilters = {
   occasion: "",
   consumer_profile: "",
   location_context: "",
+  continent: "",
+  country: "",
+  city: "",
+  year: "",
+  month: "",
+  designer: "",
+  annotation: "",
 };
 
 type FilterKey = keyof typeof emptyFilters;
@@ -71,9 +78,34 @@ export function App() {
       occasion: new Set(),
       consumer_profile: new Set(),
       location_context: new Set(),
+      continent: new Set(),
+      country: new Set(),
+      city: new Set(),
+      year: new Set(),
+      month: new Set(),
+      designer: new Set(),
+      annotation: new Set(),
     };
     for (const image of images) {
+      if (image.created_at) {
+        const date = new Date(image.created_at);
+        if (!Number.isNaN(date.getTime())) {
+          values.year.add(String(date.getFullYear()));
+          values.month.add(String(date.getMonth() + 1));
+        }
+      }
+      for (const annotation of image.annotations) {
+        if (annotation.created_by) values.designer.add(annotation.created_by);
+        if (annotation.tags) values.annotation.add(annotation.tags);
+      }
       if (!image.ai_metadata) continue;
+      const locationParts = image.ai_metadata.location_context
+        .split(/[>,/|-]/)
+        .map((part) => part.trim())
+        .filter(Boolean);
+      if (locationParts[0] && locationParts[0] !== "unknown") values.continent.add(locationParts[0]);
+      if (locationParts[1] && locationParts[1] !== "unknown") values.country.add(locationParts[1]);
+      if (locationParts[2] && locationParts[2] !== "unknown") values.city.add(locationParts[2]);
       for (const key of Object.keys(values) as FilterKey[]) {
         if (key === "color") {
           for (const color of image.ai_metadata.color_palette) {
@@ -81,7 +113,12 @@ export function App() {
           }
           continue;
         }
-        const value = image.ai_metadata[key];
+        if (
+          ["continent", "country", "city", "year", "month", "designer", "annotation"].includes(key)
+        ) {
+          continue;
+        }
+        const value = (image.ai_metadata as Record<string, unknown>)[key];
         if (typeof value === "string" && value && value !== "unknown") {
           values[key].add(value);
         }
@@ -128,6 +165,13 @@ export function App() {
         occasion: filters.occasion || undefined,
         consumer_profile: filters.consumer_profile || undefined,
         location_context: filters.location_context || undefined,
+        continent: filters.continent || undefined,
+        country: filters.country || undefined,
+        city: filters.city || undefined,
+        year: filters.year ? Number(filters.year) : undefined,
+        month: filters.month ? Number(filters.month) : undefined,
+        designer: filters.designer || undefined,
+        annotation: filters.annotation || undefined,
         limit: 40,
       });
       setSearchResults(response);
@@ -159,7 +203,7 @@ export function App() {
     <main className="app-shell">
       <section className="topbar">
         <div>
-          <p className="eyebrow">Atelier Lens AI</p>
+          <p className="eyebrow">Fashion Garment Classification & Inspiration Web App</p>
           <h1>Searchable inspiration library for garment photos.</h1>
           <p className="lede">
             Upload field imagery, classify garments, filter structured attributes, and add designer notes.
@@ -202,7 +246,7 @@ export function App() {
           <div className="filter-grid">
             {(Object.keys(filters) as FilterKey[]).map((key) => (
               <label key={key}>
-                {key.replace("_", " ")}
+                {key.replaceAll("_", " ")}
                 <select
                   value={filters[key]}
                   onChange={(event) =>

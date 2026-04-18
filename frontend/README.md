@@ -1,6 +1,6 @@
-# Atelier Lens AI Frontend
+# Fashion Garment Classification & Inspiration Web App Frontend
 
-React frontend for Atelier Lens AI by Srilatha.
+React frontend for the Fashion Garment Classification & Inspiration Web App by Srilatha.
 
 ## Screens
 

@@ -1,6 +1,6 @@
-# Atelier Lens AI Backend
+# Fashion Garment Classification & Inspiration Web App Backend
 
-FastAPI backend for Atelier Lens AI by Srilatha.
+FastAPI backend for the Fashion Garment Classification & Inspiration Web App by Srilatha.
 
 ## Responsibilities
 

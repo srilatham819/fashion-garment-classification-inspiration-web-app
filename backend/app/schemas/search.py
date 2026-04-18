@@ -12,6 +12,13 @@ class SearchRequest(BaseModel):
     occasion: str | None = None
     consumer_profile: str | None = None
     location_context: str | None = None
+    continent: str | None = None
+    country: str | None = None
+    city: str | None = None
+    year: int | None = None
+    month: int | None = None
+    designer: str | None = None
+    annotation: str | None = None
     limit: int = 10
 
 
@@ -28,3 +35,6 @@ class SearchResult(BaseModel):
     occasion: str | None = None
     consumer_profile: str | None = None
     location_context: str | None = None
+    created_at: str | None = None
+    designers: list[str] = []
+    annotation_text: str | None = None

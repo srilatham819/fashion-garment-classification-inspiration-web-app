@@ -1,7 +1,7 @@
-from sqlalchemy import String, cast, select
+from sqlalchemy import String, cast, extract, or_, select
 from sqlalchemy.orm import Session
 
-from app.models import AIMetadata
+from app.models import AIMetadata, Image, UserAnnotation
 from app.schemas.classification import ClassificationResult
 from app.schemas.search import SearchRequest
 
@@ -40,7 +40,10 @@ class AIMetadataRepository:
         return metadata
 
     def filter(self, request: SearchRequest, *, limit: int) -> list[AIMetadata]:
-        stmt = select(AIMetadata)
+        stmt = select(AIMetadata).join(Image, Image.id == AIMetadata.image_id).outerjoin(
+            UserAnnotation,
+            UserAnnotation.image_id == AIMetadata.image_id,
+        )
         if request.garment_type:
             stmt = stmt.where(AIMetadata.garment_type.ilike(f"%{request.garment_type}%"))
         if request.style:
@@ -59,7 +62,50 @@ class AIMetadataRepository:
             stmt = stmt.where(AIMetadata.consumer_profile.ilike(f"%{request.consumer_profile}%"))
         if request.location_context:
             stmt = stmt.where(AIMetadata.location_context.ilike(f"%{request.location_context}%"))
-        return list(self.db.scalars(stmt.limit(limit)))
+        if request.continent:
+            stmt = stmt.where(AIMetadata.location_context.ilike(f"%{request.continent}%"))
+        if request.country:
+            stmt = stmt.where(AIMetadata.location_context.ilike(f"%{request.country}%"))
+        if request.city:
+            stmt = stmt.where(AIMetadata.location_context.ilike(f"%{request.city}%"))
+        if request.year:
+            stmt = stmt.where(extract("year", Image.created_at) == request.year)
+        if request.month:
+            stmt = stmt.where(extract("month", Image.created_at) == request.month)
+        if request.designer:
+            stmt = stmt.where(UserAnnotation.created_by.ilike(f"%{request.designer}%"))
+        if request.annotation:
+            stmt = stmt.where(
+                or_(
+                    UserAnnotation.note.ilike(f"%{request.annotation}%"),
+                    UserAnnotation.tags.ilike(f"%{request.annotation}%"),
+                )
+            )
+        if request.query:
+            query_terms = [request.query, *request.query.replace("-", " ").split()]
+            stmt = stmt.where(
+                or_(
+                    *[
+                        field.ilike(f"%{term}%")
+                        for term in query_terms
+                        for field in [
+                            AIMetadata.garment_type,
+                            AIMetadata.style,
+                            AIMetadata.material,
+                            cast(AIMetadata.color_palette, String),
+                            AIMetadata.pattern,
+                            AIMetadata.occasion,
+                            AIMetadata.description,
+                            AIMetadata.trend_notes,
+                            AIMetadata.location_context,
+                            AIMetadata.consumer_profile,
+                            UserAnnotation.note,
+                            UserAnnotation.tags,
+                        ]
+                    ]
+                )
+            )
+        return list(self.db.scalars(stmt.distinct().limit(limit)))
 
     def get_by_image_ids(self, image_ids: list[int]) -> dict[int, AIMetadata]:
         if not image_ids:

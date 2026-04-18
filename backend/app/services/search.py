@@ -67,11 +67,26 @@ class HybridSearchService:
                 request.occasion,
                 request.consumer_profile,
                 request.location_context,
+                request.continent,
+                request.country,
+                request.city,
+                request.year,
+                request.month,
+                request.designer,
+                request.annotation,
             ]
         )
 
     @staticmethod
     def _to_result(metadata: AIMetadata, score: float | None) -> SearchResult:
+        annotations = metadata.image.annotations if metadata.image else []
+        designers = sorted({annotation.created_by for annotation in annotations if annotation.created_by})
+        annotation_text = " ".join(
+            part
+            for annotation in annotations
+            for part in [annotation.tags, annotation.note]
+            if part
+        ) or None
         return SearchResult(
             image_id=metadata.image_id,
             score=score,
@@ -85,6 +100,9 @@ class HybridSearchService:
             occasion=metadata.occasion,
             consumer_profile=metadata.consumer_profile,
             location_context=metadata.location_context,
+            created_at=metadata.image.created_at.isoformat() if metadata.image and metadata.image.created_at else None,
+            designers=designers,
+            annotation_text=annotation_text,
         )
 
     @staticmethod
@@ -138,9 +156,26 @@ class HybridSearchService:
             (request.occasion, result.occasion),
             (request.consumer_profile, result.consumer_profile),
             (request.location_context, result.location_context),
+            (request.continent, result.location_context),
+            (request.country, result.location_context),
+            (request.city, result.location_context),
+            (request.annotation, result.annotation_text),
         ]
         for expected, actual in checks:
             if expected and expected.lower() not in (actual or "").lower():
+                return False
+        if request.designer:
+            designers = [designer.lower() for designer in result.designers]
+            if not any(request.designer.lower() in designer for designer in designers):
+                return False
+        if request.year or request.month:
+            if not result.created_at:
+                return False
+            date_part = result.created_at.split("T", maxsplit=1)[0]
+            year, month, *_ = date_part.split("-")
+            if request.year and int(year) != request.year:
+                return False
+            if request.month and int(month) != request.month:
                 return False
         if request.color:
             colors = [color.lower() for color in (result.color_palette or [])]

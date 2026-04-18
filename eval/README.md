@@ -1,6 +1,6 @@
 # Evaluation Pipeline
 
-Evaluation workflow for Atelier Lens AI garment classification quality.
+Evaluation workflow for the Fashion Garment Classification & Inspiration Web App garment classification quality.
 
 ## Planned Inputs
 

@@ -1,5 +1,5 @@
 {
-  "name": "atelier-lens-ai-frontend",
+  "name": "fashion-garment-inspiration-frontend",
   "version": "0.1.0",
   "private": true,
   "author": "Srilatha",
@@ -23,6 +23,7 @@
     "@testing-library/react": "^16.0.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
+    "rollup": "npm:@rollup/wasm-node@^4.60.2",
     "vitest": "^3.0.0"
   }
 }

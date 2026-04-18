@@ -16,6 +16,7 @@ class ImageRead(BaseModel):
     status: str
     image_url: str
     error_message: str | None = None
+    created_at: str | None = None
     ai_metadata: ClassificationResult | None = None
     annotations: list[AnnotationRead] = []
 

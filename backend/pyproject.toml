@@ -1,7 +1,7 @@
 [project]
-name = "atelier-lens-ai-backend"
+name = "fashion-garment-inspiration-backend"
 version = "0.1.0"
-description = "FastAPI backend for Atelier Lens AI."
+description = "FastAPI backend for the Fashion Garment Classification & Inspiration Web App."
 authors = [{ name = "Srilatha" }]
 requires-python = ">=3.11"
 dependencies = [

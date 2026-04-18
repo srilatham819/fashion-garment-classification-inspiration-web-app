@@ -81,6 +81,7 @@ def _to_image_read(image: Image) -> ImageRead:
         status=image.status,
         image_url=f"/api/images/{image.id}/file",
         error_message=image.error_message,
+        created_at=image.created_at.isoformat() if image.created_at else None,
         ai_metadata=metadata,
         annotations=[
             AnnotationRead(
