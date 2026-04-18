@@ -228,8 +228,6 @@ Frontend:
 
 The backend implementation includes upload, classification service wiring, strict JSON parsing, metadata persistence, semantic indexing, hybrid search, annotations, and evaluation scaffolding. The frontend includes upload, library browsing, hybrid search filters, detail inspection, classification status polling, and designer annotations.
 
-## Documentation
+## Interview Guide
 
-- Requirements audit: [`docs/requirements_audit.md`](docs/requirements_audit.md)
-- Setup, usage, build, and test guide: [`docs/setup_usage_testing.md`](docs/setup_usage_testing.md)
-- Deployment guide: [`docs/deployment.md`](docs/deployment.md)
+For complete setup, usage, testing, evaluation, architecture, technology, tradeoff, and interview-prep notes, see [`docs/project_interview_guide.md`](docs/project_interview_guide.md).

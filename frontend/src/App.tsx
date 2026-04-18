@@ -4,11 +4,9 @@ import {
   checkHealth,
   createAnnotation,
   LibraryImage,
-  listDemoImages,
   listImages,
   searchImages,
   SearchResult,
-  STATIC_DEMO,
   uploadImage,
 } from "./api/client";
 
@@ -50,7 +48,8 @@ export function App() {
   async function refreshLibrary() {
     const online = await checkHealth().catch(() => false);
     setApiOnline(online);
-    const library = online ? await listImages() : STATIC_DEMO ? await listDemoImages() : [];
+    if (!online) return;
+    const library = await listImages();
     setImages(library);
     setSelectedImageId((current) => current ?? library[0]?.id ?? null);
   }
@@ -139,10 +138,6 @@ export function App() {
   async function handleUpload(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     if (!selectedFile) return;
-    if (!apiOnline && STATIC_DEMO) {
-      setUploadStatus("Static demo mode uses a prebuilt Pexels library. Run the backend locally to upload and classify new photos.");
-      return;
-    }
 
     setUploadStatus("Uploading image...");
     try {
@@ -158,17 +153,6 @@ export function App() {
   async function handleSearch(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     setSearchStatus("Searching...");
-    if (!apiOnline && STATIC_DEMO) {
-      const response = searchLocalImages({
-        images,
-        query: query.trim(),
-        filters,
-        limit: 40,
-      });
-      setSearchResults(response);
-      setSearchStatus(response.length ? `${response.length} matching image(s).` : "No matches yet.");
-      return;
-    }
     try {
       const response = await searchImages({
         query: query.trim() || undefined,
@@ -200,25 +184,6 @@ export function App() {
   async function handleAnnotation(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     if (!selectedImage) return;
-    if (!apiOnline && STATIC_DEMO) {
-      const annotation = {
-        id: Date.now(),
-        note: annotationNote,
-        tags: annotationTags,
-        created_by: "designer",
-      };
-      setImages((current) =>
-        current.map((image) =>
-          image.id === selectedImage.id
-            ? { ...image, annotations: [...image.annotations, annotation] }
-            : image,
-        ),
-      );
-      setAnnotationNote("");
-      setAnnotationTags("");
-      setAnnotationStatus("Annotation saved in this browser session.");
-      return;
-    }
     setAnnotationStatus("Saving annotation...");
     try {
       await createAnnotation(selectedImage.id, {
@@ -245,13 +210,7 @@ export function App() {
           </p>
         </div>
         <div className={`status-pill ${apiOnline ? "online" : "offline"}`}>
-          {apiOnline === null
-            ? "Checking API"
-            : apiOnline
-              ? "API online"
-              : STATIC_DEMO
-                ? "Static demo"
-                : "API offline"}
+          {apiOnline === null ? "Checking API" : apiOnline ? "API online" : "API offline"}
         </div>
       </section>
 
@@ -259,11 +218,7 @@ export function App() {
         <form className="panel upload-panel" onSubmit={handleUpload}>
           <div>
             <h2>Upload</h2>
-            <p>
-              {apiOnline || !STATIC_DEMO
-                ? "Images are stored locally, classified in the background, and indexed for search."
-                : "Static demo mode uses a prebuilt Pexels library. Run the backend locally to upload new photos."}
-            </p>
+            <p>Images are stored locally, classified in the background, and indexed for search.</p>
           </div>
           <label className="drop-zone">
             <input
@@ -273,7 +228,7 @@ export function App() {
             />
             <span>{selectedFile ? selectedFile.name : "Choose a garment photo"}</span>
           </label>
-          <button type="submit" disabled={!selectedFile || (!apiOnline && STATIC_DEMO)}>
+          <button type="submit" disabled={!selectedFile}>
             Upload and classify
           </button>
           {uploadStatus && <p className="form-message">{uploadStatus}</p>}
@@ -455,110 +410,4 @@ export function App() {
       </section>
     </main>
   );
-}
-
-function searchLocalImages({
-  images,
-  query,
-  filters,
-  limit,
-}: {
-  images: LibraryImage[];
-  query: string;
-  filters: typeof emptyFilters;
-  limit: number;
-}): SearchResult[] {
-  const terms = query.toLowerCase().split(/\s+/).filter(Boolean);
-  return images
-    .filter((image) => imageMatches(image, filters, terms))
-    .slice(0, limit)
-    .map((image) => ({
-      image_id: image.id,
-      score: null,
-      description: image.ai_metadata?.description ?? null,
-      garment_type: image.ai_metadata?.garment_type ?? null,
-      style: image.ai_metadata?.style ?? null,
-      material: image.ai_metadata?.material ?? null,
-      color_palette: image.ai_metadata?.color_palette ?? null,
-      pattern: image.ai_metadata?.pattern ?? null,
-      season: image.ai_metadata?.season ?? null,
-      occasion: image.ai_metadata?.occasion ?? null,
-      consumer_profile: image.ai_metadata?.consumer_profile ?? null,
-      location_context: image.ai_metadata?.location_context ?? null,
-      created_at: image.created_at,
-      designers: image.annotations
-        .map((annotation) => annotation.created_by)
-        .filter((designer): designer is string => Boolean(designer)),
-      annotation_text: image.annotations
-        .flatMap((annotation) => [annotation.tags, annotation.note])
-        .filter(Boolean)
-        .join(" "),
-    }));
-}
-
-function imageMatches(image: LibraryImage, filters: typeof emptyFilters, terms: string[]): boolean {
-  const metadata = image.ai_metadata;
-  const annotationText = image.annotations
-    .flatMap((annotation) => [annotation.tags, annotation.note, annotation.created_by])
-    .filter(Boolean)
-    .join(" ");
-  const haystack = [
-    image.original_filename,
-    metadata?.garment_type,
-    metadata?.style,
-    metadata?.material,
-    metadata?.color_palette.join(" "),
-    metadata?.pattern,
-    metadata?.season,
-    metadata?.occasion,
-    metadata?.consumer_profile,
-    metadata?.trend_notes,
-    metadata?.location_context,
-    metadata?.description,
-    annotationText,
-  ]
-    .filter(Boolean)
-    .join(" ")
-    .toLowerCase();
-  const created = image.created_at ? new Date(image.created_at) : null;
-  const fieldChecks = [
-    filters.garment_type && metadata?.garment_type,
-    filters.style && metadata?.style,
-    filters.material && metadata?.material,
-    filters.pattern && metadata?.pattern,
-    filters.season && metadata?.season,
-    filters.occasion && metadata?.occasion,
-    filters.consumer_profile && metadata?.consumer_profile,
-    filters.location_context && metadata?.location_context,
-    filters.continent && metadata?.location_context,
-    filters.country && metadata?.location_context,
-    filters.city && metadata?.location_context,
-    filters.designer && annotationText,
-    filters.annotation && annotationText,
-  ];
-  const filterValues = [
-    filters.garment_type,
-    filters.style,
-    filters.material,
-    filters.pattern,
-    filters.season,
-    filters.occasion,
-    filters.consumer_profile,
-    filters.location_context,
-    filters.continent,
-    filters.country,
-    filters.city,
-    filters.designer,
-    filters.annotation,
-  ].filter(Boolean);
-  for (let index = 0; index < filterValues.length; index += 1) {
-    const actual = fieldChecks[index];
-    if (!actual || !actual.toLowerCase().includes(filterValues[index].toLowerCase())) return false;
-  }
-  if (filters.color && !metadata?.color_palette.some((color) => color.toLowerCase() === filters.color.toLowerCase())) {
-    return false;
-  }
-  if (filters.year && (!created || String(created.getFullYear()) !== filters.year)) return false;
-  if (filters.month && (!created || String(created.getMonth() + 1) !== filters.month)) return false;
-  return terms.every((term) => haystack.includes(term));
 }

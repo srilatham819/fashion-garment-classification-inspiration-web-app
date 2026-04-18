@@ -1,6 +1,5 @@
 export const API_BASE_URL =
   import.meta.env.VITE_API_BASE_URL ?? "http://127.0.0.1:8000/api";
-export const STATIC_DEMO = import.meta.env.VITE_STATIC_DEMO === "true";
 
 export type UploadResponse = {
   image_id: number;
@@ -81,16 +80,7 @@ export type LibraryImage = {
 
 export function apiUrl(path: string): string {
   if (path.startsWith("http")) return path;
-  if (path.startsWith("demo/")) return `${import.meta.env.BASE_URL}${path}`;
   return `${API_BASE_URL.replace(/\/api$/, "")}${path}`;
-}
-
-export async function listDemoImages(): Promise<LibraryImage[]> {
-  const response = await fetch(`${import.meta.env.BASE_URL}demo/library.json`);
-  if (!response.ok) {
-    throw new Error("Could not load static demo library.");
-  }
-  return response.json();
 }
 
 export async function checkHealth(): Promise<boolean> {
