@@ -3,6 +3,10 @@ __pycache__/
 .pytest_cache/
 .venv/
 .venv*/
+venv/
+backend/venv/
+backend/build/
+backend/*.egg-info/
 *.pyc
 *.db
 

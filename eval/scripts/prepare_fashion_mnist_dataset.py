@@ -47,7 +47,7 @@ def download_file(name: str) -> Path:
         return target
     request = urllib.request.Request(
         f"{BASE_URL}/{name}",
-        headers={"User-Agent": "fashion-inspiration-ai-eval/0.1"},
+        headers={"User-Agent": "atelier-lens-ai-eval/0.1"},
     )
     with urllib.request.urlopen(request, timeout=60) as response:
         target.write_bytes(response.read())
@@ -124,4 +124,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

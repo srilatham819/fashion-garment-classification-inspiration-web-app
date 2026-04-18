@@ -1,6 +1,6 @@
 # Evaluation Pipeline
 
-Evaluation scaffold for garment classification quality.
+Evaluation workflow for Atelier Lens AI garment classification quality.
 
 ## Planned Inputs
 
@@ -10,4 +10,3 @@ Evaluation scaffold for garment classification quality.
 ## Planned Outputs
 
 - `reports/` - Per-run metrics and qualitative failure analysis.
-

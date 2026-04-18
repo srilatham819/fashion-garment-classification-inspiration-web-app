@@ -46,7 +46,7 @@ def commons_search(query: str, limit: int) -> list[dict[str, Any]]:
     )
     request = urllib.request.Request(
         f"https://commons.wikimedia.org/w/api.php?{params}",
-        headers={"User-Agent": "fashion-inspiration-ai-eval/0.1 (local take-home project)"},
+        headers={"User-Agent": "atelier-lens-ai-eval/0.1 (local project)"},
     )
     with urllib.request.urlopen(request, timeout=30) as response:
         payload = json.loads(response.read().decode("utf-8"))
@@ -56,7 +56,7 @@ def commons_search(query: str, limit: int) -> list[dict[str, Any]]:
 def download(url: str, path: Path) -> None:
     request = urllib.request.Request(
         url,
-        headers={"User-Agent": "fashion-inspiration-ai-eval/0.1 (local take-home project)"},
+        headers={"User-Agent": "atelier-lens-ai-eval/0.1 (local project)"},
     )
     with urllib.request.urlopen(request, timeout=30) as response:
         path.write_bytes(response.read())

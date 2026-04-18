@@ -2,7 +2,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
-    app_name: str = "Fashion Inspiration AI"
+    app_name: str = "Atelier Lens AI"
     database_url: str = "postgresql+psycopg://fashion:fashion@localhost:5432/fashion_ai"
     openai_api_key: str | None = None
     openai_vision_model: str = "gpt-5.4-mini"

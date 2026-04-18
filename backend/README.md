@@ -1,13 +1,12 @@
-# Backend
+# Atelier Lens AI Backend
 
-FastAPI backend scaffold.
+FastAPI backend for Atelier Lens AI by Srilatha.
 
-## Planned Responsibilities
+## Responsibilities
 
 - Image upload API.
-- OpenAI vision classification adapter.
+- OpenAI vision classification adapter with a deterministic demo fallback.
 - PostgreSQL metadata persistence.
 - FAISS vector indexing and search adapter.
 - Designer annotation APIs.
-- Evaluation support endpoints or internal services.
-
+- Evaluation support through the repository-level evaluation scripts.

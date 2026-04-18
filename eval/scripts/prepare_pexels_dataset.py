@@ -117,7 +117,7 @@ def api_get(url: str, api_key: str) -> dict[str, Any]:
         url,
         headers={
             "Authorization": api_key,
-            "User-Agent": "fashion-inspiration-ai-eval/0.1",
+            "User-Agent": "atelier-lens-ai-eval/0.1",
         },
     )
     with urllib.request.urlopen(request, timeout=45) as response:
@@ -127,7 +127,7 @@ def api_get(url: str, api_key: str) -> dict[str, Any]:
 def download_file(url: str, path: Path) -> None:
     request = urllib.request.Request(
         url,
-        headers={"User-Agent": "fashion-inspiration-ai-eval/0.1"},
+        headers={"User-Agent": "atelier-lens-ai-eval/0.1"},
     )
     with urllib.request.urlopen(request, timeout=45) as response:
         path.write_bytes(response.read())
@@ -242,4 +242,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

@@ -1,6 +1,6 @@
-# Fashion Inspiration AI
+# Atelier Lens AI
 
-Fashion Inspiration AI is a lightweight full-stack system for organizing field-captured fashion imagery. Designers can upload garment photos, classify them with a multimodal AI model, store structured fashion metadata, and retrieve inspiration through hybrid search that combines SQL filters with semantic vector similarity.
+Atelier Lens AI is a lightweight full-stack system by Srilatha for organizing field-captured fashion imagery. Designers can upload garment photos, classify them with a multimodal AI model, store structured fashion metadata, and retrieve inspiration through hybrid search that combines SQL filters with semantic vector similarity.
 
 The implementation is intentionally proof-of-concept sized, but the architecture is shaped like a production service: thin API routes, explicit service boundaries, repository-based persistence, strict model output validation, and a rerunnable evaluation pipeline.
 
@@ -220,10 +220,10 @@ Search quality:
 
 Frontend:
 
-- Build the upload, grid, detail drawer, filters, annotation UI, and evaluation report views.
+- Add evaluation report views.
 - Add loading, pending, failed, and reclassify states.
 - Clearly distinguish AI-generated metadata from designer annotations.
 
 ## Current Status
 
-The backend implementation includes upload, classification service wiring, strict JSON parsing, metadata persistence, semantic indexing, hybrid search, and evaluation scaffolding. The frontend is currently scaffolded but not functionally implemented.
+The backend implementation includes upload, classification service wiring, strict JSON parsing, metadata persistence, semantic indexing, hybrid search, annotations, and evaluation scaffolding. The frontend includes upload, library browsing, hybrid search filters, detail inspection, classification status polling, and designer annotations.

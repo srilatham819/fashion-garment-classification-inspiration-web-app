@@ -1,7 +1,8 @@
 [project]
-name = "fashion-ai-backend"
+name = "atelier-lens-ai-backend"
 version = "0.1.0"
-description = "FastAPI backend scaffold for fashion inspiration AI."
+description = "FastAPI backend for Atelier Lens AI."
+authors = [{ name = "Srilatha" }]
 requires-python = ">=3.11"
 dependencies = [
   "fastapi>=0.115.0",

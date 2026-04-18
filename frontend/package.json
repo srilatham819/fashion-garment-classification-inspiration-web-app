@@ -1,7 +1,8 @@
 {
-  "name": "fashion-ai-frontend",
+  "name": "atelier-lens-ai-frontend",
   "version": "0.1.0",
   "private": true,
+  "author": "Srilatha",
   "type": "module",
   "scripts": {
     "dev": "vite",

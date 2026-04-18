@@ -159,7 +159,7 @@ export function App() {
     <main className="app-shell">
       <section className="topbar">
         <div>
-          <p className="eyebrow">Fashion Inspiration AI</p>
+          <p className="eyebrow">Atelier Lens AI</p>
           <h1>Searchable inspiration library for garment photos.</h1>
           <p className="lede">
             Upload field imagery, classify garments, filter structured attributes, and add designer notes.
