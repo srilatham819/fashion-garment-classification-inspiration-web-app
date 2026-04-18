@@ -21,6 +21,7 @@ dist/
 
 # Local data
 backend/storage/
+frontend/public/demo/
 eval/reports/*.json
 eval/reports/*.csv
 infra/faiss/*.index
